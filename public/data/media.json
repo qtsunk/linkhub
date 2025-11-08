@@ -1,6 +1,6 @@
 [
   {
-    "subcategory": "媒体资讯",
+    "subcategory": "科技新闻与产品",
     "sites": [
       {
         "name": "Hacker News",
@@ -13,9 +13,94 @@
         "description": "发现新奇有趣的产品平台。"
       },
       {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/",
+        "description": "报道科技创业公司与产品资讯的权威媒体。"
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/",
+        "description": "科技、电子产品与文化新闻报道网站。"
+      },
+      {
         "name": "Reddit",
         "url": "https://www.reddit.com/",
         "description": "拥有数万个社区，用户讨论各类话题的平台。"
+      }
+    ]
+  },
+  {
+    "subcategory": "IT 与开发博客",
+    "sites": [
+      {
+        "name": "Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/",
+        "description": "前端开发、设计与用户体验专业博客。"
+      },
+      {
+        "name": "CSS-Tricks",
+        "url": "https://css-tricks.com/",
+        "description": "CSS与前端开发技巧分享网站。"
+      },
+      {
+        "name": "Medium Technology",
+        "url": "https://medium.com/topic/technology",
+        "description": "科技主题的文章与创作平台，覆盖产品、开发与趋势。"
+      },
+      {
+        "name": "DEV Community",
+        "url": "https://dev.to/",
+        "description": "开发者社区，分享技术文章、项目和经验。"
+      }
+    ]
+  },
+  {
+    "subcategory": "国内新闻资讯",
+    "sites": [
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/",
+        "description": "问答社区，涵盖科技、商业、文化等领域的资讯和讨论。"
+      },
+      {
+        "name": "36Kr",
+        "url": "https://36kr.com/",
+        "description": "国内科技创业、投资和商业新闻平台。"
+      },
+      {
+        "name": "虎嗅",
+        "url": "https://www.huxiu.com/",
+        "description": "关注商业、科技与互联网趋势的资讯媒体。"
+      },
+      {
+        "name": "网易科技",
+        "url": "https://tech.163.com/",
+        "description": "国内知名科技新闻报道网站。"
+      }
+    ]
+  },
+  {
+    "subcategory": "财经与投资资讯",
+    "sites": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/",
+        "description": "全球权威财经资讯与数据服务平台。"
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://www.ft.com/",
+        "description": "英国权威金融、经济和商业新闻媒体。"
+      },
+      {
+        "name": "华尔街见闻",
+        "url": "https://wallstreetcn.com/",
+        "description": "国内专业财经新闻与金融市场分析平台。"
+      },
+      {
+        "name": "和讯网",
+        "url": "http://www.hexun.com/",
+        "description": "提供股市、财经、投资等资讯服务的网站。"
       }
     ]
   }

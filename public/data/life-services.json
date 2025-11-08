@@ -1,0 +1,129 @@
+[
+    {
+      "subcategory": "出行工具",
+      "sites": [
+        {
+          "name": "高德地图",
+          "url": "https://ditu.amap.com/",
+          "description": "国内领先的地图导航服务，提供精准路线规划与实时交通信息。"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://maps.google.com/",
+          "description": "全球覆盖的地图服务，支持跨国导航、街景与地点探索。"
+        },
+        {
+          "name": "12306",
+          "url": "https://www.12306.cn/index/",
+          "description": "中国铁路官方票务预订平台，提供高铁、动车等列车票购买服务。"
+        },
+        {
+          "name": "滴滴出行",
+          "url": "https://www.didiglobal.com/",
+          "description": "国内出行平台，提供打车、顺风车、代驾等服务。"
+        },
+        {
+          "name": "Rome2rio",
+          "url": "https://www.rome2rio.com/",
+          "description": "全球交通路线查询工具，支持飞机、火车、公交、步行等多方式规划。"
+        }
+      ]
+    },
+    {
+      "subcategory": "外卖服务",
+      "sites": [
+        {
+          "name": "美团外卖",
+          "url": "https://waimai.meituan.com/",
+          "description": "国内主流外卖平台，覆盖餐饮、生鲜、药品等多品类配送。"
+        },
+        {
+          "name": "饿了么",
+          "url": "https://www.ele.me/",
+          "description": "国内大型外卖配送平台，提供多样餐饮选择与快捷配送服务。"
+        },
+        {
+          "name": "Uber Eats",
+          "url": "https://www.ubereats.com/",
+          "description": "全球外卖配送平台，支持在多个国家和地区订购当地美食。"
+        }
+      ]
+    },
+    {
+      "subcategory": "租房与住宿",
+      "sites": [
+        {
+          "name": "链家",
+          "url": "https://bj.lianjia.com/",
+          "description": "国内知名房产交易平台，提供真实租房、二手房信息与中介服务。"
+        },
+        {
+          "name": "贝壳找房",
+          "url": "https://www.ke.com/",
+          "description": "提供全国二手房、租房及新房信息，覆盖房产全流程服务。"
+        },
+        {
+          "name": "Airbnb",
+          "url": "https://www.airbnb.com/",
+          "description": "全球民宿短租平台，提供特色住宿与本地体验预订服务。"
+        }
+      ]
+    },
+    {
+      "subcategory": "购物与电商",
+      "sites": [
+        {
+          "name": "京东",
+          "url": "https://www.jd.com/",
+          "description": "国内知名综合电商平台，提供家电、数码、服饰等商品。"
+        },
+        {
+          "name": "淘宝",
+          "url": "https://www.taobao.com/",
+          "description": "国内大型电商平台，支持各类商品购买与C2C交易。"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/",
+          "description": "全球知名电商平台，提供跨境购物与国际物流服务。"
+        }
+      ]
+    },
+    {
+      "subcategory": "生活缴费与服务",
+      "sites": [
+        {
+          "name": "支付宝",
+          "url": "https://www.alipay.com/",
+          "description": "国内领先的支付与生活服务平台，支持缴费、转账、理财等功能。"
+        },
+        {
+          "name": "微信支付",
+          "url": "https://pay.weixin.qq.com/",
+          "description": "通过微信提供便捷支付与生活服务入口，覆盖多类缴费与消费场景。"
+        },
+        {
+          "name": "12306余票查询",
+          "url": "https://trains.ctrip.com/itinerary",
+          "description": "国内便捷火车票余票查询与预订工具。"
+        }
+      ]
+    },
+    {
+      "subcategory": "天气与气象",
+      "sites": [
+        {
+          "name": "Ventusky",
+          "url": "https://www.ventusky.com/",
+          "description": "全球天气可视化平台，以动态地图展示温度、降雨、风速、气压等多维气象数据，界面直观美观。"
+        },
+        {
+          "name": "Windy",
+          "url": "https://www.windy.com/",
+          "description": "专业级天气与气象可视化工具，支持全球实时风场、气温、浪高与空气质量图层，深受户外与航海爱好者喜爱。"
+        }
+      ]
+    }
+    
+  ]
+  

@@ -1,0 +1,78 @@
+[
+    {
+      "subcategory": "跨境支付",
+      "sites": [
+        {
+          "name": "PayPal",
+          "url": "https://www.paypal.com/",
+          "description": "全球领先的在线支付平台，支持跨国交易与资金结算。"
+        },
+        {
+          "name": "Wise",
+          "url": "https://wise.com/",
+          "description": "低成本国际汇款平台，支持多币种兑换，汇率透明。"
+        },
+        {
+          "name": "支付宝国际版",
+          "url": "https://global.alipay.com/",
+          "description": "面向全球用户的支付工具，支持跨境电商与线下扫码支付。"
+        },
+        {
+          "name": "Payoneer",
+          "url": "https://www.payoneer.com/",
+          "description": "跨境收付款平台，适合自由职业者与跨境电商使用。"
+        }
+      ]
+    },
+    {
+      "subcategory": "跨境物流",
+      "sites": [
+        {
+          "name": "DHL",
+          "url": "https://www.dhl.com/",
+          "description": "全球物流巨头，提供国际快递、货运与供应链解决方案。"
+        },
+        {
+          "name": "顺丰国际",
+          "url": "https://www.sf-express.com/cn/en/",
+          "description": "中国快递企业的国际业务平台，覆盖全球多个国家和地区。"
+        },
+        {
+          "name": "UPS",
+          "url": "https://www.ups.com/",
+          "description": "美国国际物流公司，提供快递、货运及供应链管理服务。"
+        },
+        {
+          "name": "FedEx",
+          "url": "https://www.fedex.com/",
+          "description": "全球物流公司，提供国际快递、物流解决方案及跨境电商服务。"
+        }
+      ]
+    },
+    {
+      "subcategory": "海外电商",
+      "sites": [
+        {
+          "name": "亚马逊",
+          "url": "https://www.amazon.com/",
+          "description": "全球最大电商平台，提供海量商品与跨境直邮服务。"
+        },
+        {
+          "name": "速卖通",
+          "url": "https://www.aliexpress.com/",
+          "description": "阿里巴巴旗下跨境电商平台，面向全球销售中国商品。"
+        },
+        {
+          "name": "eBay",
+          "url": "https://www.ebay.com/",
+          "description": "国际拍卖与零售平台，支持跨境交易与个人卖家运营。"
+        },
+        {
+          "name": "Walmart Global",
+          "url": "https://www.walmart.com/",
+          "description": "美国大型零售商，提供国际购物及跨境电商渠道。"
+        }
+      ]
+    }
+  ]
+  

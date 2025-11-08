@@ -8,22 +8,32 @@
         "description": "知名图像编辑软件。"
       },
       {
+        "name": "Illustrator",
+        "url": "https://www.adobe.com/cn/products/illustrator/",
+        "description": "矢量图形和插图设计工具。"
+      },
+      {
         "name": "Affinity Designer",
         "url": "https://affinity.serif.com/",
         "description": "专业矢量与创意设计软件。"
       },
       {
-        "name": "Illustrator",
-        "url": "https://www.adobe.com/cn/products/illustrator/",
-        "description": "矢量图形和插图设计工具。"
+        "name": "CorelDRAW",
+        "url": "https://www.coreldraw.com/cn/",
+        "description": "老牌矢量图形和排版设计软件。"
+      },
+      {
+        "name": "Sketch",
+        "url": "https://www.sketch.com/",
+        "description": "Mac 平台 UI 和图形设计工具。"
       }
     ]
   },
   {
-    "subcategory": "动效设计",
+    "subcategory": "动效与原型",
     "sites": [
       {
-        "name": "Adobe After Effects CC",
+        "name": "Adobe After Effects",
         "url": "https://www.adobe.com/cn/products/aftereffects/",
         "description": "影视级视觉特效与动态图形制作。"
       },
@@ -41,16 +51,36 @@
         "name": "Framer",
         "url": "https://framer.com/",
         "description": "从图标到高保真交互的设计与原型工具。"
+      },
+      {
+        "name": "Motion Canvas",
+        "url": "https://motioncanvas.io/",
+        "description": "基于Canvas API创建动画视频的TypeScript库。"
+      },
+      {
+        "name": "LottieFiles",
+        "url": "https://lottiefiles.com/",
+        "description": "轻量级动画文件与动效素材库，支持Web和App。"
       }
     ]
   },
   {
-    "subcategory": "配色工具",
+    "subcategory": "配色与灵感",
     "sites": [
       {
         "name": "Color Hunt",
         "url": "https://colorhunt.co/",
         "description": "配色灵感与方案工具。"
+      },
+      {
+        "name": "Coolors",
+        "url": "https://coolors.co/",
+        "description": "快速生成配色方案，支持导出和共享。"
+      },
+      {
+        "name": "Adobe Color",
+        "url": "https://color.adobe.com/zh/create",
+        "description": "Adobe 官方配色工具，支持色彩提取与搭配。"
       }
     ]
   },
@@ -60,22 +90,82 @@
       {
         "name": "Lucide",
         "url": "https://lucide.dev/",
-        "description": "社区制作的美观统一图标库。"
+        "description": "社区制作的美观统一图标库，支持SVG和Web使用。"
+      },
+      {
+        "name": "FontAwesome",
+        "url": "https://fontawesome.com/",
+        "description": "全球流行的矢量图标库和字体图标工具。"
+      },
+      {
+        "name": "Material Icons",
+        "url": "https://fonts.google.com/icons",
+        "description": "Google 官方 Material Design 风格图标库。"
+      },
+      {
+        "name": "Iconmonstr",
+        "url": "https://iconmonstr.com/",
+        "description": "免费可商用图标库，风格统一简洁。"
+      },
+      {
+        "name": "Heroicons",
+        "url": "https://heroicons.com/",
+        "description": "Tailwind 官方提供的精美 SVG 图标库。"
+      },
+      {
+        "name": "Selfh.st Icons",
+        "url": "https://selfh.st/icons/",
+        "description": "一个免费开源的图标库聚合站点，收录多种矢量图标集，可直接下载或引用使用。"
+      },
+      {
+        "name": "Pictogrammers",
+        "url": "https://pictogrammers.com/libraries/",
+        "description": "知名的开源图标与设计资源集合，提供如 Material Design Icons 等多个高质量图标库。"
+      },
+      {
+        "name": "Simple Icons",
+        "url": "https://simpleicons.org/",
+        "description": "提供上千个品牌矢量图标的开源网站，支持 SVG 格式下载与快速搜索。"
+      },
+      {
+        "name": "UXWing",
+        "url": "https://uxwing.com/",
+        "description": "免费商用图标库，提供高质量 SVG 与 PNG 图标，适用于网页与应用设计。"
       }
     ]
   },
   {
-    "subcategory": "截图工具",
+    "subcategory": "设计素材",
     "sites": [
       {
-        "name": "截图美化工具",
-        "url": "https://shots.so/",
-        "description": "美化截图并套用多种设备样式。"
+        "name": "Unsplash",
+        "url": "https://unsplash.com/",
+        "description": "高质量免费图片素材，支持商用。"
       },
       {
-        "name": "PostSpark",
-        "url": "https://postspark.app/",
-        "description": "可定制的美观截图与展示工具。"
+        "name": "Pexels",
+        "url": "https://www.pexels.com/zh-cn/",
+        "description": "免费照片与视频素材库，适用于设计和创作。"
+      },
+      {
+        "name": "Pixabay",
+        "url": "https://pixabay.com/zh/",
+        "description": "免费高质量图片、视频和矢量素材资源。"
+      },
+      {
+        "name": "Freepik",
+        "url": "https://www.freepik.com/",
+        "description": "海量矢量、PSD、图标和照片素材。"
+      },
+      {
+        "name": "Shutterstock",
+        "url": "https://www.shutterstock.com/zh/",
+        "description": "知名商业图库，提供高清图片和视频素材。"
+      },
+      {
+        "name": "Wallhaven",
+        "url": "https://wallhaven.cc/",
+        "description": "一个高清壁纸分享网站，拥有丰富的分类和分辨率选择，适合桌面与手机背景。"
       }
     ]
   }

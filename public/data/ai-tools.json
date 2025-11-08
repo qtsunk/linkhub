@@ -1,21 +1,26 @@
 [
   {
-    "subcategory": "AI 助手",
+    "subcategory": "AI 聊天助手",
     "sites": [
       {
         "name": "ChatGPT",
         "url": "https://chat.openai.com/",
-        "description": "OpenAI开发的人工智能聊天机器人。"
-      },
-      {
-        "name": "DeepSeek",
-        "url": "https://chat.deepseek.com/",
-        "description": "支持编程、创作和文件处理的智能助手，支持文件上传和长文本对话。"
+        "description": "OpenAI开发的人工智能聊天机器人，支持多种对话与任务。"
       },
       {
         "name": "Claude",
         "url": "https://claude.ai/",
-        "description": "Anthropic开发的AI助手，擅长分析与创作。"
+        "description": "Anthropic开发的AI聊天助手，擅长分析与创作。"
+      },
+      {
+        "name": "通义千问",
+        "url": "https://chat.qwen.ai/",
+        "description": "阿里云推出的智能对话平台，支持多轮聊天、写作、编程与知识问答。"
+      },
+      {
+        "name": "豆包",
+        "url": "https://www.doubao.com/chat/",
+        "description": "字节跳动旗下AI聊天助手，集成智能问答、写作辅助与多场景应用。"
       },
       {
         "name": "Gemini",
@@ -25,12 +30,17 @@
       {
         "name": "Poe",
         "url": "https://poe.com/",
-        "description": "由Quora开发，可切换使用多种主流AI模型的应用。"
+        "description": "由Quora开发，可切换使用多种主流AI模型的对话应用。"
       },
       {
-        "name": "perplexity",
-        "url": "https://www.perplexity.ai/",
-        "description": "提供信息查询、问题解答及任务辅助的智能助手。"
+        "name": "讯飞星火",
+        "url": "https://spark.xfyun.cn/",
+        "description": "国内优质AI助手，支持聊天与内容创作。"
+      },
+      {
+        "name": "文心一言",
+        "url": "https://yiyan.baidu.com/",
+        "description": "国内AI聊天助手，结合搜索与创作能力。"
       },
       {
         "name": "Grok",
@@ -40,32 +50,42 @@
     ]
   },
   {
-    "subcategory": "AI 生产力工具",
+    "subcategory": "AI 办公与生产力",
     "sites": [
+      {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "description": "文档生成和工作流辅助的AI工具。"
+      },
+      {
+        "name": "Copy.ai",
+        "url": "https://www.copy.ai/",
+        "description": "内容创作与文案生成工具，支持多种场景。"
+      },
+      {
+        "name": "Jasper AI",
+        "url": "https://www.jasper.ai/",
+        "description": "AI内容创作和办公辅助平台。"
+      },
+      {
+        "name": "Gamma",
+        "url": "https://gamma.app/",
+        "description": "AI生成PPT工具，快速制作演示文稿。"
+      },
       {
         "name": "Napkin",
         "url": "https://www.napkin.ai/",
-        "description": "将文字快速转化为可视化内容的工具。"
+        "description": "将文字快速转化为可视化内容的AI工具。"
       },
       {
-        "name": "gamma",
-        "url": "https://gamma.app/",
-        "description": "AI生成PPT工具，快速制作演示文稿。"
+        "name": "Writesonic",
+        "url": "https://writesonic.com/",
+        "description": "AI文案和文章生成平台，支持多语言。"
       }
     ]
   },
   {
-    "subcategory": "MCP 服务器",
-    "sites": [
-      {
-        "name": "MCP Server 集合站",
-        "url": "https://smithery.ai/",
-        "description": "提供各种MCP服务器资源。"
-      }
-    ]
-  },
-  {
-    "subcategory": "AI 多媒体",
+    "subcategory": "AI 图像创作",
     "sites": [
       {
         "name": "Leonardo.AI",
@@ -73,39 +93,79 @@
         "description": "基于Stable Diffusion的AI绘图社区与创作工具。"
       },
       {
+        "name": "MidJourney",
+        "url": "https://www.midjourney.com/",
+        "description": "高质量艺术风格图像生成工具。"
+      },
+      {
+        "name": "Stable Diffusion Web",
+        "url": "https://stability.ai/",
+        "description": "Stable Diffusion在线图像生成平台。"
+      },
+      {
+        "name": "DALL·E",
+        "url": "https://openai.com/dall-e",
+        "description": "OpenAI提供的文字生成图像工具。"
+      },
+      {
         "name": "Tensor.art",
         "url": "https://tensor.art/",
         "description": "免费在线AI图像生成与模型托管平台。"
       },
       {
-        "name": "Suno | AI Music",
+        "name": "Baidu ERNIE-ViLG",
+        "url": "https://ai.baidu.com/tech/imagelab",
+        "description": "国内优质AI图像生成平台。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 音频创作",
+    "sites": [
+      {
+        "name": "Suno AI",
         "url": "https://suno.com/home",
-        "description": "使用AI快速生成原创音乐。"
+        "description": "AI生成原创音乐，快速创作音频内容。"
+      },
+      {
+        "name": "Soundraw",
+        "url": "https://soundraw.io/",
+        "description": "AI作曲工具，可生成可商用音乐。"
+      },
+      {
+        "name": "AIVA",
+        "url": "https://www.aiva.ai/",
+        "description": "AI作曲平台，适用于影视、游戏音乐创作。"
+      },
+      {
+        "name": "LALAL.AI",
+        "url": "https://www.lalal.ai/",
+        "description": "AI音频分离与声音生成工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 视频创作",
+    "sites": [
+      {
+        "name": "Runway",
+        "url": "https://runwayml.com/",
+        "description": "AI视频生成与编辑平台，支持特效与剪辑。"
+      },
+      {
+        "name": "Pictory",
+        "url": "https://pictory.ai/",
+        "description": "文字生成短视频工具，自动剪辑和字幕。"
+      },
+      {
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io/",
+        "description": "AI生成虚拟主持人视频，适用于教学和营销。"
       },
       {
         "name": "Sora",
         "url": "https://sora.chatgpt.com/",
         "description": "将文字和图片转化为沉浸式视频，支持故事动画化。"
-      },
-      {
-        "name": "Nano Banana",
-        "url": "https://aistudio.google.com/gen-media",
-        "description": "AI图像生成工具，现更名为Gemini 2.5 Flash Image。"
-      },
-      {
-        "name": "veo-3",
-        "url": "https://aistudio.google.com/models/veo-3",
-        "description": "从提示到成品最快的AI图像生成工具。"
-      }
-    ]
-  },
-  {
-    "subcategory": "AI 代码生成",
-    "sites": [
-      {
-        "name": "v0 by Vercel",
-        "url": "https://v0.app/",
-        "description": "协作AI助手，助力设计和开发全栈应用。"
       }
     ]
   }

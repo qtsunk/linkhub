@@ -1,0 +1,83 @@
+[
+    {
+      "subcategory": "技术社区",
+      "sites": [
+        {
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com/",
+          "description": "全球最大的程序员问答社区，覆盖各种编程问题与技术讨论。"
+        },
+        {
+          "name": "GitHub Discussions",
+          "url": "https://github.com/discussions",
+          "description": "GitHub 上的项目讨论区，开发者可以提问、分享经验和协作。"
+        },
+        {
+          "name": "V2EX",
+          "url": "https://www.v2ex.com/",
+          "description": "国内活跃的互联网开发者与科技爱好者社区。"
+        },
+        {
+          "name": "SegmentFault",
+          "url": "https://segmentfault.com/",
+          "description": "国内专业开发者问答社区，提供技术文章、问答与分享。"
+        }
+      ]
+    },
+    {
+      "subcategory": "创作者社区",
+      "sites": [
+        {
+          "name": "Behance",
+          "url": "https://www.behance.net/",
+          "description": "Adobe旗下创意作品展示社区，设计师分享作品与灵感。"
+        },
+        {
+          "name": "Dribbble",
+          "url": "https://dribbble.com/",
+          "description": "设计师展示作品、获取灵感与职业机会的创意社区。"
+        },
+        {
+          "name": "知乎",
+          "url": "https://www.zhihu.com/",
+          "description": "中文问答与知识分享社区，涵盖各类话题。"
+        },
+        {
+          "name": "小红书",
+          "url": "https://www.xiaohongshu.com/",
+          "description": "生活方式分享社区，用户可以发布图文、短视频内容。"
+        }
+      ]
+    },
+    {
+      "subcategory": "兴趣社区",
+      "sites": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/",
+          "description": "全球兴趣社区平台，覆盖数万个主题讨论区。"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/",
+          "description": "关注科技、创业与黑客资讯的社区与新闻网站。"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/",
+          "description": "全球知名的语音与文字聊天社区平台，广泛用于游戏、学习及兴趣社群交流。"
+        },        
+        {
+          "name": "豆瓣小组",
+          "url": "https://www.douban.com/group/",
+          "description": "国内兴趣讨论社区，涵盖书籍、电影、生活等话题。"
+        },
+        {
+          "name": "FMHY",
+          "url": "https://fmhy.net/",
+          "description": "一个社区驱动的免费资源导航网站，收录涵盖影视、音乐、软件、教育、工具等各类优质免费与开源资源，实时更新。"
+        }
+      ]
+    }
+  ]
+  

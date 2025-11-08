@@ -3,6 +3,11 @@
     "subcategory": "在线工具",
     "sites": [
       {
+        "name": "IT Tools",
+        "url": "https://it-tools.tech/",
+        "description": "为开发者提供一站式实用在线工具集合，涵盖编码、格式化、转换等功能。"
+      },
+      {
         "name": "TableConvert",
         "url": "https://tableconvert.com/",
         "description": "Excel数据在线转换为SQL、JSON、HTML等格式。"
@@ -31,21 +36,41 @@
         "name": "ScreenShots.pro",
         "url": "https://screenshots.pro/",
         "description": "生成App Store和Google Play应用截图的在线工具。"
+      },
+      {
+        "name": "Convertio",
+        "url": "https://convertio.co/zh/",
+        "description": "多功能在线文件转换工具，支持图片、文档、音视频等格式。"
+      },
+      {
+        "name": "ILovePDF",
+        "url": "https://www.ilovepdf.com/zh-cn",
+        "description": "PDF处理工具，支持合并、拆分、压缩、转换。"
       }
     ]
   },
   {
-    "subcategory": "UI设计",
+    "subcategory": "UI设计与原型",
     "sites": [
       {
         "name": "Figma",
         "url": "https://www.figma.com/",
-        "description": "在线UI/UX设计与原型工具。"
+        "description": "在线UI/UX设计与原型工具，支持多人协作。"
+      },
+      {
+        "name": "Sketch",
+        "url": "https://www.sketch.com/",
+        "description": "Mac 平台 UI/UX 设计工具，专注矢量设计。"
+      },
+      {
+        "name": "Adobe XD",
+        "url": "https://www.adobe.com/cn/products/xd.html",
+        "description": "Adobe 官方界面设计和原型工具，支持协作与交互设计。"
       }
     ]
   },
   {
-    "subcategory": "数据分析",
+    "subcategory": "数据分析与统计",
     "sites": [
       {
         "name": "Google Analytics",
@@ -56,6 +81,86 @@
         "name": "Google AdSense",
         "url": "https://www.google.com/adsense/",
         "description": "Google广告发布与管理平台。"
+      },
+      {
+        "name": "Tableau Public",
+        "url": "https://public.tableau.com/",
+        "description": "强大的可视化数据分析工具，支持公共数据分享。"
+      },
+      {
+        "name": "Microsoft Power BI",
+        "url": "https://powerbi.microsoft.com/zh-cn/",
+        "description": "企业级商业智能分析工具，支持数据可视化和报表制作。"
+      },
+      {
+        "name": "百度统计",
+        "url": "https://tongji.baidu.com/",
+        "description": "国内常用网站流量分析工具，支持多维度报表。"
+      }
+    ]
+  },
+  {
+    "subcategory": "笔记与任务管理",
+    "sites": [
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/",
+        "description": "集笔记、任务、数据库于一体的效率工具。"
+      },
+      {
+        "name": "Evernote",
+        "url": "https://www.evernote.com/",
+        "description": "老牌跨平台笔记工具，支持Web、PC、移动端。"
+      },
+      {
+        "name": "Todoist",
+        "url": "https://todoist.com/zh-CN",
+        "description": "全球知名任务管理工具，支持多端同步与协作。"
+      },
+      {
+        "name": "Trello",
+        "url": "https://trello.com/",
+        "description": "可视化看板工具，支持团队任务管理与协作。"
+      }
+    ]
+  },
+  {
+    "subcategory": "时间管理与专注",
+    "sites": [
+      {
+        "name": "RescueTime",
+        "url": "https://www.rescuetime.com/",
+        "description": "帮助分析时间使用情况，提高专注力的工具。"
+      },
+      {
+        "name": "Toggl Track",
+        "url": "https://toggl.com/track/",
+        "description": "简单易用的时间追踪和统计工具。"
+      },
+      {
+        "name": "Pomofocus",
+        "url": "https://pomofocus.io/",
+        "description": "在线番茄工作法计时工具，提升工作效率。"
+      }
+    ]
+  },
+  {
+    "subcategory": "文档与知识管理",
+    "sites": [
+      {
+        "name": "Obsidian",
+        "url": "https://obsidian.md/",
+        "description": "本地知识管理工具，支持Markdown和双向链接。"
+      },
+      {
+        "name": "Typora",
+        "url": "https://typora.io/",
+        "description": "Markdown 编辑器，支持所见即所得。"
+      },
+      {
+        "name": "Coggle",
+        "url": "https://coggle.it/",
+        "description": "在线思维导图工具，支持团队协作。"
       }
     ]
   }

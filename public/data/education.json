@@ -1,0 +1,120 @@
+[
+    {
+      "subcategory": "在线课程与MOOC",
+      "sites": [
+        {
+          "name": "可汗学院",
+          "url": "https://zh.khanacademy.org/",
+          "description": "可汗学院的中文网站，提供涵盖数学、科学、编程、经济学等多领域的免费课程与互动学习资源。"
+        },
+        {
+          "name": "Coursera",
+          "url": "https://www.coursera.org/",
+          "description": "汇集全球顶尖大学课程的在线学习平台，提供证书课程与专项课程。"
+        },
+        {
+          "name": "edX",
+          "url": "https://www.edx.org/",
+          "description": "由哈佛与MIT联合创立的开源在线教育平台，侧重学术性课程。"
+        },
+        {
+          "name": "网易云课堂",
+          "url": "https://study.163.com/",
+          "description": "国内综合在线学习平台，涵盖职业技能、兴趣爱好等多领域课程。"
+        },
+        {
+          "name": "Udemy",
+          "url": "https://www.udemy.com/",
+          "description": "全球在线课程平台，提供技术、设计、商业等各类实用课程。"
+        },
+        {
+          "name": "MOOC中国",
+          "url": "https://www.mooc.cn/",
+          "description": "国内大型慕课平台，汇集清华、北大等高校公开课资源。"
+        }
+      ]
+    },
+    {
+      "subcategory": "编程与技术学习",
+      "sites": [
+        {
+          "name": "LeetCode",
+          "url": "https://leetcode.com/",
+          "description": "全球知名编程题库，提供算法训练与面试题，支持多语言实现。"
+        },
+        {
+          "name": "GitHub Learning Lab",
+          "url": "https://lab.github.com/",
+          "description": "交互式GitHub技能学习平台，通过实践掌握版本控制与协作流程。"
+        },
+        {
+          "name": "牛客网",
+          "url": "https://www.nowcoder.com/",
+          "description": "国内专注IT求职与编程学习的平台，提供笔试题库与面经资源。"
+        },
+        {
+          "name": "Codecademy",
+          "url": "https://www.codecademy.com/",
+          "description": "在线编程学习平台，提供交互式课程和项目实践。"
+        },
+        {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/",
+          "description": "免费编程学习平台，涵盖Web开发、数据分析和算法训练。"
+        },
+        {
+          "name": "Learn X in Y Minutes",
+          "url": "https://learnxinyminutes.com/",
+          "description": "以简洁示例的方式快速学习编程语言或工具，通过代码片段和注释展示核心语法与概念。"
+        }
+      ]
+    },
+    {
+      "subcategory": "语言学习",
+      "sites": [
+        {
+          "name": "Duolingo",
+          "url": "https://www.duolingo.com/",
+          "description": "游戏化语言学习工具，支持40+语言，适合零基础入门。"
+        },
+        {
+          "name": "Rosetta Stone",
+          "url": "https://www.rosettastone.com/",
+          "description": "沉浸式语言学习软件，侧重听说能力培养，覆盖25+语言。"
+        },
+        {
+          "name": "扇贝单词",
+          "url": "https://www.shanbay.com/",
+          "description": "国内知名英语学习平台，提供单词记忆、阅读训练等系统化工具。"
+        },
+        {
+          "name": "BBC Learning English",
+          "url": "https://www.bbc.co.uk/learningenglish",
+          "description": "BBC提供的英语学习资源，适合中高级学习者。"
+        },
+        {
+          "name": "HelloChinese",
+          "url": "https://www.hellochinese.cc/",
+          "description": "面向全球用户的汉语学习工具，涵盖听说读写。"
+        }
+      ]
+    },
+    {
+      "subcategory": "在线科学教育",
+      "sites": [
+        {
+          "name": "Animagraffs",
+          "url": "https://animagraffs.com/",
+          "description": "通过高质量3D动画和可视化图解展示复杂原理的科普网站，涵盖机械、科技、生物等主题。"
+        },
+        {
+          "name": "PhET",
+          "url": "https://phet.colorado.edu/",
+          "description": "科罗拉多大学提供的免费交互式科学和数学模拟平台，适合学生和教育者进行实验学习和可视化探索。"
+        }
+        
+      ]
+    }
+    
+  ]
+  

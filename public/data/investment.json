@@ -1,6 +1,6 @@
 [
   {
-    "subcategory": "数据分析",
+    "subcategory": "数据分析与投资研究",
     "sites": [
       {
         "name": "TradingView",
@@ -20,17 +20,27 @@
       {
         "name": "集思录",
         "url": "https://www.jisilu.cn/",
-        "description": "以数据为核心的投资社区。"
+        "description": "以数据为核心的投资社区，提供讨论与分析工具。"
       },
       {
         "name": "看财报",
         "url": "https://www.kancaibao.com/",
         "description": "价值投资分析工具，提供财务数据、DCF折现、杜邦分析及公司对比。"
+      },
+      {
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/",
+        "description": "全球知名基金和投资研究平台，提供基金评级与分析。"
+      },
+      {
+        "name": "Seeking Alpha",
+        "url": "https://seekingalpha.com/",
+        "description": "投资者社区和股票分析平台，提供股票、ETF和投资观点。"
       }
     ]
   },
   {
-    "subcategory": "溢价观测",
+    "subcategory": "市场数据与行情",
     "sites": [
       {
         "name": "集思录-实时数据",
@@ -41,6 +51,66 @@
         "name": "Palmmicro",
         "url": "https://palmmicro.com/woody/res/chinafuturecn.php",
         "description": "A股及商品基金净值计算工具。"
+      },
+      {
+        "name": "新浪财经",
+        "url": "https://finance.sina.com.cn/",
+        "description": "国内股票、基金、债券等实时行情及资讯。"
+      },
+      {
+        "name": "东方财富网",
+        "url": "https://www.eastmoney.com/",
+        "description": "提供股票行情、投资数据及财经资讯的平台。"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/",
+        "description": "国际市场行情与财经新闻，覆盖股票、ETF、期货等。"
+      }
+    ]
+  },
+  {
+    "subcategory": "基金与资产管理",
+    "sites": [
+      {
+        "name": "天天基金网",
+        "url": "https://fund.eastmoney.com/",
+        "description": "国内主流基金交易与查询平台，提供净值和评级信息。"
+      },
+      {
+        "name": "晨星基金",
+        "url": "https://www.morningstar.cn/",
+        "description": "国内晨星基金平台，提供基金评级和分析。"
+      },
+      {
+        "name": "基金业协会",
+        "url": "http://www.amac.org.cn/",
+        "description": "国内基金行业监管与信息发布平台。"
+      }
+    ]
+  },
+  {
+    "subcategory": "财经新闻与研究",
+    "sites": [
+      {
+        "name": "彭博社",
+        "url": "https://www.bloomberg.com/",
+        "description": "全球权威财经新闻、数据及研究分析平台。"
+      },
+      {
+        "name": "金融时报",
+        "url": "https://www.ft.com/",
+        "description": "英国权威财经新闻与市场研究媒体。"
+      },
+      {
+        "name": "华尔街见闻",
+        "url": "https://wallstreetcn.com/",
+        "description": "国内专业财经新闻与市场分析平台。"
+      },
+      {
+        "name": "第一财经",
+        "url": "https://www.yicai.com/",
+        "description": "提供金融、经济、商业资讯及数据服务的网站。"
       }
     ]
   }

@@ -1,7 +1,7 @@
 [
   {
     "id": "dev-tools",
-    "category": "开发工具",
+    "category": "开发者服务",
     "icon": "fas fa-code",
     "file": "dev-tools.json"
   },
@@ -25,7 +25,7 @@
   },
   {
     "id": "media",
-    "category": "媒体资讯",
+    "category": "新闻资讯",
     "icon": "fas fa-newspaper",
     "file": "media.json"
   },
@@ -37,8 +37,38 @@
   },
   {
     "id": "creator",
-    "category": "自媒体工具",
+    "category": "创作工具",
     "icon": "fas fa-video",
     "file": "creator.json"
+  },
+  {
+    "id": "education",
+    "category": "学习教育",
+    "icon": "fas fa-graduation-cap",
+    "file": "education.json"
+  },
+  {
+    "id": "life-services",
+    "category": "生活服务",
+    "icon": "fas fa-home",
+    "file": "life-services.json"
+  },
+  {
+    "id": "cross-border",
+    "category": "跨境服务与工具",
+    "icon": "fas fa-globe",
+    "file": "cross-border.json"
+  },
+  {
+    "id": "marketing",
+    "category": "数字营销工具",
+    "icon": "fas fa-bullhorn",
+    "file": "marketing.json"
+  },
+  {
+    "id": "community",
+    "category": "网络社区",
+    "icon": "fas fa-users",
+    "file": "community.json"
   }
 ]

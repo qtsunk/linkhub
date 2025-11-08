@@ -1,21 +1,31 @@
 [
   {
-    "subcategory": "国内平台",
+    "subcategory": "国内创作平台",
     "sites": [
       {
         "name": "公众号助手",
         "url": "https://mp.weixin.qq.com/",
-        "description": "微信公众平台管理工具。"
+        "description": "微信公众平台管理与内容创作工具。"
       },
       {
         "name": "视频号助手",
         "url": "https://channels.weixin.qq.com",
-        "description": "微信视频号创作与管理工具。"
+        "description": "微信视频号创作与管理平台。"
       },
       {
         "name": "小红书创作中心",
         "url": "https://creator.xiaohongshu.com/",
         "description": "小红书内容创作与管理平台。"
+      },
+      {
+        "name": "Bilibili 创作中心",
+        "url": "https://member.bilibili.com/platform/home.html",
+        "description": "国内视频创作者管理与发布平台。"
+      },
+      {
+        "name": "知乎创作者",
+        "url": "https://zhuanlan.zhihu.com/",
+        "description": "知乎专栏与问答创作平台，支持文字和图文创作。"
       }
     ]
   },
@@ -43,14 +53,14 @@
         "description": "一键转换微信公众号样式，优化知乎/语雀排版。"
       },
       {
-        "name": "MD2Card - Markdown 转知识卡片工具",
+        "name": "MD2Card",
         "url": "https://md2card.com/zh/editor",
         "description": "Markdown 转小红书风格卡片与社交媒体排版工具。"
       }
     ]
   },
   {
-    "subcategory": "录屏工具",
+    "subcategory": "录屏与演示工具",
     "sites": [
       {
         "name": "Screenity",
@@ -61,24 +71,64 @@
         "name": "Cursorful",
         "url": "https://cursorful.com/",
         "description": "支持光标跟随和缩放的屏幕录制工具。"
+      },
+      {
+        "name": "Loom",
+        "url": "https://www.loom.com/",
+        "description": "轻量化屏幕录制与视频分享工具。"
+      },
+      {
+        "name": "OBS Studio",
+        "url": "https://obsproject.com/",
+        "description": "开源免费的视频录制和直播工具。"
       }
     ]
   },
   {
-    "subcategory": "AI 检测",
+    "subcategory": "视频创作工具",
+    "sites": [
+      {
+        "name": "Remotion",
+        "url": "https://www.remotion.dev/",
+        "description": "用 React 编程方式生成视频。"
+      },
+      {
+        "name": "Canva 视频编辑",
+        "url": "https://www.canva.com/video-editor/",
+        "description": "可视化视频编辑工具，支持模板与创作。"
+      },
+      {
+        "name": "Runway",
+        "url": "https://runwayml.com/",
+        "description": "AI视频生成与特效处理平台，适合创作者快速制作内容。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 内容与创作辅助",
     "sites": [
       {
         "name": "腾讯朱雀AI文本检测",
         "url": "https://matrix.tencent.com/ai-detect/",
-        "description": "基于AI模型的中文与英文文本检测工具，可区分人类与AI写作。"
+        "description": "中文与英文文本检测工具，可区分人类与AI写作。"
+      },
+      {
+        "name": "Copy.ai",
+        "url": "https://www.copy.ai/",
+        "description": "AI文本生成与创作辅助工具，适合写作和营销内容。"
+      },
+      {
+        "name": "Jasper",
+        "url": "https://www.jasper.ai/",
+        "description": "AI写作助手，支持多种语言内容生成。"
       }
     ]
   },
   {
-    "subcategory": "付费平台",
+    "subcategory": "付费创作与订阅平台",
     "sites": [
       {
-        "name": "Quaily | 创作者新闻订阅服务",
+        "name": "Quaily",
         "url": "https://quaily.com/",
         "description": "基于AI的新闻订阅服务，支持邮件、Telegram、Discord推送。"
       },
@@ -101,6 +151,26 @@
         "name": "知识星球",
         "url": "https://zsxq.com/",
         "description": "连接粉丝，实现知识变现的创作者工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "辅助创作工具",
+    "sites": [
+      {
+        "name": "截图美化工具",
+        "url": "https://shots.so/",
+        "description": "美化截图并套用多种设备样式。"
+      },
+      {
+        "name": "PostSpark",
+        "url": "https://postspark.app/",
+        "description": "可定制的美观截图与展示工具。"
+      },
+      {
+        "name": "Canva",
+        "url": "https://www.canva.com/",
+        "description": "图文、海报、演示文稿设计工具，适合创作者辅助创作。"
       }
     ]
   }

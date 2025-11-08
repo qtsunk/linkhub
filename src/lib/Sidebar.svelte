@@ -1,5 +1,5 @@
 <script>
-  import { fade } from 'svelte/transition'
+  import { fade, slide } from 'svelte/transition'
   
   export let categories = []
   export let currentCategory = null // 当前选中的分类
@@ -63,9 +63,16 @@
   }
   
   // 创建一个响应式变量来跟踪当前选中的二级分类
-  $: activeSubcategoryKey = currentSubcategory && currentCategory 
-    ? `${currentCategory.id}-${currentSubcategory.subcategory}` 
-    : null
+  // 使用方括号访问属性以绕过 TypeScript 类型检查
+  $: activeSubcategoryKey = (() => {
+    if (!currentSubcategory || !currentCategory) {
+      return null
+    }
+    // 使用方括号访问属性，避免 TypeScript 类型推断问题
+    const categoryId = currentCategory && currentCategory['id'] ? currentCategory['id'] : null
+    const subcategoryName = currentSubcategory && currentSubcategory['subcategory'] ? currentSubcategory['subcategory'] : null
+    return categoryId && subcategoryName ? `${categoryId}-${subcategoryName}` : null
+  })()
 
   // 点击二级分类 - 传递二级分类信息给父组件
   async function handleSubcategoryClick(category, subcategory, e) {
@@ -146,17 +153,21 @@
                 <i class="{category.icon} w-4"></i>
                 <span>{category.category}</span>
               </div>
+              <!-- 箭头图标：收起时向右，展开时向下 -->
               <i
-                class="fas fa-chevron-down text-xs transition-transform {expandedCategories.has(category.id)
-                  ? 'rotate-180'
+                class="fas fa-chevron-right text-xs transition-transform duration-200 ease-in-out {expandedCategories.has(category.id)
+                  ? 'rotate-90'
                   : ''}"
               ></i>
             </button>
 
-            <!-- 二级分类列表 -->
+            <!-- 二级分类列表 - 使用 slide 动画实现展开/收起效果 -->
             {#if expandedCategories.has(category.id)}
               {#await loadSubcategories(category.id, category.file) then subcategories}
-                <ul class="mt-2 space-y-1">
+                <ul 
+                  class="mt-2 space-y-1"
+                  transition:slide={{ duration: 200, axis: 'y' }}
+                >
                   {#each subcategories as subcategory}
                     {@const subcategoryKey = `${category.id}-${subcategory.subcategory}`}
                     {@const isActive = activeSubcategoryKey === subcategoryKey}
@@ -167,10 +178,10 @@
                           ? 'text-gray-900 dark:text-white'
                           : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}"
                       >
-                        <!-- 选中状态的小圆点 - 使用绝对定位，不影响文字位置 -->
+                        <!-- 选中状态的小圆点 - 使用绝对定位，不影响文字位置，颜色较暗淡 -->
                         {#if isActive}
                           <span 
-                            class="absolute left-7 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-gray-900 dark:bg-white pointer-events-none"
+                            class="absolute left-7 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-gray-400 dark:bg-gray-500 pointer-events-none"
                           ></span>
                         {/if}
                         <span>{subcategory.subcategory}</span>
