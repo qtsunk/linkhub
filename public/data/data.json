@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dev-tools",
+    "category": "开发工具",
+    "icon": "fas fa-code",
+    "file": "dev-tools.json"
+  },
+  {
+    "id": "ai-tools",
+    "category": "AI 工具",
+    "icon": "fas fa-robot",
+    "file": "ai-tools.json"
+  },
+  {
+    "id": "design",
+    "category": "设计资源",
+    "icon": "fas fa-palette",
+    "file": "design.json"
+  },
+  {
+    "id": "productivity",
+    "category": "效率工具",
+    "icon": "fas fa-bolt",
+    "file": "productivity.json"
+  },
+  {
+    "id": "media",
+    "category": "媒体资讯",
+    "icon": "fas fa-newspaper",
+    "file": "media.json"
+  },
+  {
+    "id": "investment",
+    "category": "投资者工具",
+    "icon": "fas fa-chart-line",
+    "file": "investment.json"
+  },
+  {
+    "id": "creator",
+    "category": "自媒体工具",
+    "icon": "fas fa-video",
+    "file": "creator.json"
+  }
+]

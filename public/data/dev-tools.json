@@ -1,0 +1,227 @@
+[
+  {
+    "subcategory": "图标资源",
+    "sites": [
+      {
+        "name": "Lucide",
+        "url": "https://lucide.dev/icons/house",
+        "description": "美观统一的图标库。"
+      }
+    ]
+  },
+  {
+    "subcategory": "UI 框架",
+    "sites": [
+      {
+        "name": "shadcn",
+        "url": "https://ui.shadcn.com/",
+        "description": "精美组件库，助力构建前端组件。"
+      },
+      {
+        "name": "shadcn UI Theme",
+        "url": "https://tweakcn.com/",
+        "description": "自定义 shadcn/ui 主题，调整颜色、字体和布局。"
+      }
+    ]
+  },
+  {
+    "subcategory": "托管平台",
+    "sites": [
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com/",
+        "description": "提供云基础设施与开发工具，加速构建和部署网站。"
+      },
+      {
+        "name": "Cloudflare",
+        "url": "https://dash.cloudflare.com/",
+        "description": "CDN 和分布式域名解析服务提供商。"
+      },
+      {
+        "name": "Netlify",
+        "url": "https://www.netlify.com/",
+        "description": "现代化网站托管与持续部署平台。"
+      },
+      {
+        "name": "Tencent EdgeOne",
+        "url": "https://edgeone.ai/zh",
+        "description": "亚洲领先的CDN与边缘安全解决方案提供商。"
+      },
+      {
+        "name": "WordPress",
+        "url": "https://wordpress.org/",
+        "description": "开源网站建设与内容管理平台。"
+      },
+      {
+        "name": "Listmonk",
+        "url": "https://listmonk.app/",
+        "description": "免费开源的自托管邮件订阅和管理平台。"
+      },
+      {
+        "name": "Ghost",
+        "url": "https://ghost.org/",
+        "description": "现代化出版平台，支持邮件与付费订阅。"
+      }
+    ]
+  },
+  {
+    "subcategory": "画图工具",
+    "sites": [
+      {
+        "name": "draw.io",
+        "url": "https://www.drawio.com/",
+        "description": "在线绘制流程图、架构图及设计图。"
+      },
+      {
+        "name": "ProcessOn",
+        "url": "https://www.processon.com/",
+        "description": "国产在线协作画图工具，支持多人实时编辑。"
+      },
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com/",
+        "description": "手绘风格在线协作画图工具。"
+      },
+      {
+        "name": "React Flow",
+        "url": "https://reactflow.dev/",
+        "description": "React 可定制化工作流和可视化节点库。"
+      },
+      {
+        "name": "LottieFiles",
+        "url": "https://lottiefiles.com/",
+        "description": "免费下载与使用轻量级动画资源。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 编程工具",
+    "sites": [
+      {
+        "name": "Cursor",
+        "url": "https://www.cursor.com/",
+        "description": "AI代码编辑器，提高开发效率。"
+      },
+      {
+        "name": "Windsurf",
+        "url": "https://codeium.com/",
+        "description": "面向开发的AI辅助 IDE。"
+      },
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "description": "适合所有人的AI编程助手。"
+      },
+      {
+        "name": "Trae",
+        "url": "https://www.trae.ai/",
+        "description": "字节新出的AI编程工具，支持Claude3.5。"
+      },
+      {
+        "name": "Kiro",
+        "url": "https://kiro.dev/",
+        "description": "从原型到生产的AI IDE。"
+      },
+      {
+        "name": "Claude Code",
+        "url": "https://www.anthropic.com/claude-code",
+        "description": "在终端中直接使用Claude进行代码搜索和生成。"
+      },
+      {
+        "name": "Codex | OpenAI",
+        "url": "https://openai.com/zh-Hans-CN/codex/",
+        "description": "OpenAI的AI编码工具，提升开发效率。"
+      }
+    ]
+  },
+  {
+    "subcategory": "域名注册",
+    "sites": [
+      {
+        "name": "Namecheap",
+        "url": "https://www.namecheap.com/",
+        "description": "域名注册与管理平台，提供全天候支持。"
+      }
+    ]
+  },
+  {
+    "subcategory": "视频工具",
+    "sites": [
+      {
+        "name": "Remotion",
+        "url": "https://www.remotion.dev/",
+        "description": "用React编程方式生成视频。"
+      }
+    ]
+  },
+  {
+    "subcategory": "动画工具",
+    "sites": [
+      {
+        "name": "Motion Canvas",
+        "url": "https://motioncanvas.io/",
+        "description": "基于Canvas API创建动画视频的TypeScript库。"
+      }
+    ]
+  },
+  {
+    "subcategory": "开源组件",
+    "sites": [
+      {
+        "name": "AI SDK",
+        "url": "https://ai-sdk.dev/",
+        "description": "Next.js团队提供的TypeScript AI工具包。"
+      }
+    ]
+  },
+  {
+    "subcategory": "运维工具",
+    "sites": [
+      {
+        "name": "宝塔",
+        "url": "https://www.bt.cn/new/index.html",
+        "description": "国内用户量大的服务器运维面板。"
+      },
+      {
+        "name": "1Panel",
+        "url": "https://1panel.cn/",
+        "description": "直观Web界面管理Linux服务器应用、网站、数据库及LLM。"
+      },
+      {
+        "name": "Dokploy",
+        "url": "https://dokploy.com/zh-Hans",
+        "description": "简洁高效的一站式项目和系统管理工具。"
+      },
+      {
+        "name": "Coolify",
+        "url": "https://coolify.io/",
+        "description": "自托管平台，轻松部署应用、数据库及服务。"
+      }
+    ]
+  },
+  {
+    "subcategory": "文档生成器",
+    "sites": [
+      {
+        "name": "Docusaurus",
+        "url": "https://docusaurus.io/",
+        "description": "快速构建优化网站，专注内容创作。"
+      },
+      {
+        "name": "VuePress",
+        "url": "https://vuepress.vuejs.org/",
+        "description": "基于Vue的静态网站生成器。"
+      }
+    ]
+  },
+  {
+    "subcategory": "开发资源",
+    "sites": [
+      {
+        "name": "Free for Developers",
+        "url": "https://free-for.dev/#/",
+        "description": "开发者和开源作者免费资源集合。"
+      }
+    ]
+  }
+]

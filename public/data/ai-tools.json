@@ -1,0 +1,112 @@
+[
+  {
+    "subcategory": "AI 助手",
+    "sites": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/",
+        "description": "OpenAI开发的人工智能聊天机器人。"
+      },
+      {
+        "name": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "description": "支持编程、创作和文件处理的智能助手，支持文件上传和长文本对话。"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/",
+        "description": "Anthropic开发的AI助手，擅长分析与创作。"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/",
+        "description": "Google的生成式AI聊天机器人，基于Gemini系列大语言模型。"
+      },
+      {
+        "name": "Poe",
+        "url": "https://poe.com/",
+        "description": "由Quora开发，可切换使用多种主流AI模型的应用。"
+      },
+      {
+        "name": "perplexity",
+        "url": "https://www.perplexity.ai/",
+        "description": "提供信息查询、问题解答及任务辅助的智能助手。"
+      },
+      {
+        "name": "Grok",
+        "url": "https://grok.com/",
+        "description": "xAI开发的免费AI助手，注重真实性与客观性。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 生产力工具",
+    "sites": [
+      {
+        "name": "Napkin",
+        "url": "https://www.napkin.ai/",
+        "description": "将文字快速转化为可视化内容的工具。"
+      },
+      {
+        "name": "gamma",
+        "url": "https://gamma.app/",
+        "description": "AI生成PPT工具，快速制作演示文稿。"
+      }
+    ]
+  },
+  {
+    "subcategory": "MCP 服务器",
+    "sites": [
+      {
+        "name": "MCP Server 集合站",
+        "url": "https://smithery.ai/",
+        "description": "提供各种MCP服务器资源。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 多媒体",
+    "sites": [
+      {
+        "name": "Leonardo.AI",
+        "url": "https://app.leonardo.ai/",
+        "description": "基于Stable Diffusion的AI绘图社区与创作工具。"
+      },
+      {
+        "name": "Tensor.art",
+        "url": "https://tensor.art/",
+        "description": "免费在线AI图像生成与模型托管平台。"
+      },
+      {
+        "name": "Suno | AI Music",
+        "url": "https://suno.com/home",
+        "description": "使用AI快速生成原创音乐。"
+      },
+      {
+        "name": "Sora",
+        "url": "https://sora.chatgpt.com/",
+        "description": "将文字和图片转化为沉浸式视频，支持故事动画化。"
+      },
+      {
+        "name": "Nano Banana",
+        "url": "https://aistudio.google.com/gen-media",
+        "description": "AI图像生成工具，现更名为Gemini 2.5 Flash Image。"
+      },
+      {
+        "name": "veo-3",
+        "url": "https://aistudio.google.com/models/veo-3",
+        "description": "从提示到成品最快的AI图像生成工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 代码生成",
+    "sites": [
+      {
+        "name": "v0 by Vercel",
+        "url": "https://v0.app/",
+        "description": "协作AI助手，助力设计和开发全栈应用。"
+      }
+    ]
+  }
+]

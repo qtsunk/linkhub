@@ -1,0 +1,82 @@
+[
+  {
+    "subcategory": "图形设计",
+    "sites": [
+      {
+        "name": "Photoshop",
+        "url": "https://www.adobe.com/cn/products/photoshop.html",
+        "description": "知名图像编辑软件。"
+      },
+      {
+        "name": "Affinity Designer",
+        "url": "https://affinity.serif.com/",
+        "description": "专业矢量与创意设计软件。"
+      },
+      {
+        "name": "Illustrator",
+        "url": "https://www.adobe.com/cn/products/illustrator/",
+        "description": "矢量图形和插图设计工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "动效设计",
+    "sites": [
+      {
+        "name": "Adobe After Effects CC",
+        "url": "https://www.adobe.com/cn/products/aftereffects/",
+        "description": "影视级视觉特效与动态图形制作。"
+      },
+      {
+        "name": "Principle",
+        "url": "http://principleformac.com/",
+        "description": "为应用界面制作交互动效的工具。"
+      },
+      {
+        "name": "Flinto",
+        "url": "https://www.flinto.com/",
+        "description": "Mac平台交互动效与原型设计工具。"
+      },
+      {
+        "name": "Framer",
+        "url": "https://framer.com/",
+        "description": "从图标到高保真交互的设计与原型工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "配色工具",
+    "sites": [
+      {
+        "name": "Color Hunt",
+        "url": "https://colorhunt.co/",
+        "description": "配色灵感与方案工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "图标资源",
+    "sites": [
+      {
+        "name": "Lucide",
+        "url": "https://lucide.dev/",
+        "description": "社区制作的美观统一图标库。"
+      }
+    ]
+  },
+  {
+    "subcategory": "截图工具",
+    "sites": [
+      {
+        "name": "截图美化工具",
+        "url": "https://shots.so/",
+        "description": "美化截图并套用多种设备样式。"
+      },
+      {
+        "name": "PostSpark",
+        "url": "https://postspark.app/",
+        "description": "可定制的美观截图与展示工具。"
+      }
+    ]
+  }
+]

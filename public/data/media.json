@@ -1,0 +1,22 @@
+[
+  {
+    "subcategory": "媒体资讯",
+    "sites": [
+      {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/",
+        "description": "计算机黑客与创业公司的社交新闻网站。"
+      },
+      {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/",
+        "description": "发现新奇有趣的产品平台。"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "description": "拥有数万个社区，用户讨论各类话题的平台。"
+      }
+    ]
+  }
+]

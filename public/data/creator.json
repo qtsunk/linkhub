@@ -1,0 +1,107 @@
+[
+  {
+    "subcategory": "国内平台",
+    "sites": [
+      {
+        "name": "公众号助手",
+        "url": "https://mp.weixin.qq.com/",
+        "description": "微信公众平台管理工具。"
+      },
+      {
+        "name": "视频号助手",
+        "url": "https://channels.weixin.qq.com",
+        "description": "微信视频号创作与管理工具。"
+      },
+      {
+        "name": "小红书创作中心",
+        "url": "https://creator.xiaohongshu.com/",
+        "description": "小红书内容创作与管理平台。"
+      }
+    ]
+  },
+  {
+    "subcategory": "排版工具",
+    "sites": [
+      {
+        "name": "NeuraPress Pro Markdown Editor",
+        "url": "https://mp.leti.ltd/",
+        "description": "现代化 Markdown 编辑器，支持响应式排版。"
+      },
+      {
+        "name": "NeuraPress",
+        "url": "https://md.leti.ltd/",
+        "description": "Markdown 转微信公众号内容工具。"
+      },
+      {
+        "name": "WeChat Markdown Editor",
+        "url": "https://doocs.github.io/md/",
+        "description": "简洁微信 Markdown 编辑器，支持多图上传、CSS自定义等。"
+      },
+      {
+        "name": "mdnice",
+        "url": "https://editor.mdnice.com/",
+        "description": "一键转换微信公众号样式，优化知乎/语雀排版。"
+      },
+      {
+        "name": "MD2Card - Markdown 转知识卡片工具",
+        "url": "https://md2card.com/zh/editor",
+        "description": "Markdown 转小红书风格卡片与社交媒体排版工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "录屏工具",
+    "sites": [
+      {
+        "name": "Screenity",
+        "url": "https://screenity.io/",
+        "description": "开源免费 Chrome 录屏插件。"
+      },
+      {
+        "name": "Cursorful",
+        "url": "https://cursorful.com/",
+        "description": "支持光标跟随和缩放的屏幕录制工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "AI 检测",
+    "sites": [
+      {
+        "name": "腾讯朱雀AI文本检测",
+        "url": "https://matrix.tencent.com/ai-detect/",
+        "description": "基于AI模型的中文与英文文本检测工具，可区分人类与AI写作。"
+      }
+    ]
+  },
+  {
+    "subcategory": "付费平台",
+    "sites": [
+      {
+        "name": "Quaily | 创作者新闻订阅服务",
+        "url": "https://quaily.com/",
+        "description": "基于AI的新闻订阅服务，支持邮件、Telegram、Discord推送。"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/",
+        "description": "分享观点、知识与经验的创作平台。"
+      },
+      {
+        "name": "Substack",
+        "url": "https://substack.com/",
+        "description": "独立创作者的订阅与发布平台。"
+      },
+      {
+        "name": "小报童",
+        "url": "https://xiaobot.net/",
+        "description": "付费专栏创作平台。"
+      },
+      {
+        "name": "知识星球",
+        "url": "https://zsxq.com/",
+        "description": "连接粉丝，实现知识变现的创作者工具。"
+      }
+    ]
+  }
+]

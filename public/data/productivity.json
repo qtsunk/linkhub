@@ -1,0 +1,62 @@
+[
+  {
+    "subcategory": "在线工具",
+    "sites": [
+      {
+        "name": "TableConvert",
+        "url": "https://tableconvert.com/",
+        "description": "Excel数据在线转换为SQL、JSON、HTML等格式。"
+      },
+      {
+        "name": "JSON Editor Online",
+        "url": "https://jsoneditoronline.org/",
+        "description": "在线JSON编辑器，支持格式化、可视化与对比。"
+      },
+      {
+        "name": "Beautifier",
+        "url": "https://beautifier.io/",
+        "description": "在线美化JavaScript、JSON、HTML、CSS等代码。"
+      },
+      {
+        "name": "SQL格式化",
+        "url": "https://www.dpriver.com/pp/sqlformat.htm",
+        "description": "在线SQL语句美化与格式化工具。"
+      },
+      {
+        "name": "TinyPNG",
+        "url": "https://tinypng.com/",
+        "description": "在线图片压缩工具，减少文件大小。"
+      },
+      {
+        "name": "ScreenShots.pro",
+        "url": "https://screenshots.pro/",
+        "description": "生成App Store和Google Play应用截图的在线工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "UI设计",
+    "sites": [
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com/",
+        "description": "在线UI/UX设计与原型工具。"
+      }
+    ]
+  },
+  {
+    "subcategory": "数据分析",
+    "sites": [
+      {
+        "name": "Google Analytics",
+        "url": "https://analytics.google.com/",
+        "description": "Google提供的网站流量统计分析工具。"
+      },
+      {
+        "name": "Google AdSense",
+        "url": "https://www.google.com/adsense/",
+        "description": "Google广告发布与管理平台。"
+      }
+    ]
+  }
+]
