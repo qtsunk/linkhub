@@ -457,15 +457,15 @@
             <div class="flex-1 min-w-0">
               <div class="font-medium text-gray-900 dark:text-white truncate flex items-baseline gap-2">
                 <span>{result.name}</span>
-                {#if result.description}
-                  <span class="text-sm font-normal text-gray-400 dark:text-gray-500">
-                    {result.description}
-                  </span>
-                {/if}
+                <span class="text-xs font-normal text-gray-400 dark:text-gray-500">
+                  {result.category} / {result.subcategory}
+                </span>
               </div>
-              <div class="text-xs text-gray-400 dark:text-gray-500 mt-1">
-                {result.category} / {result.subcategory}
-              </div>
+              {#if result.description}
+                <div class="text-sm text-gray-500 dark:text-gray-400 mt-1 line-clamp-1">
+                  {result.description}
+                </div>
+              {/if}
             </div>
           </div>
         </button>
