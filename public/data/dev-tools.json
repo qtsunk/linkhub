@@ -51,11 +51,6 @@
         "name": "Tencent EdgeOne",
         "url": "https://edgeone.ai/zh",
         "description": "亚洲领先的CDN与边缘安全解决方案提供商。"
-      },
-      {
-        "name": "阿里云 Web 托管",
-        "url": "https://www.aliyun.com/product/web",
-        "description": "国内优质网站托管和部署平台。"
       }
     ]
   },
