@@ -72,7 +72,7 @@ LinkHub/
 │   └── fontawesome/        # Font Awesome 图标库
 ├── src/
 │   ├── lib/                # 组件库
-│   │   ├── Sidebar.svelte      # 侧边栏组件（支持展开/收起子分类）
+│   │   ├── Sidebar.svelte      # 侧边栏组件
 │   │   ├── Navbar.svelte       # 顶部导航栏
 │   │   ├── Search.svelte       # 搜索组件
 │   │   ├── Category.svelte     # 分类展示组件
@@ -80,7 +80,7 @@ LinkHub/
 │   │   ├── ThemeToggle.svelte  # 主题切换组件
 │   │   ├── Favorites.svelte    # 收藏管理组件
 │   │   ├── ScrollToTop.svelte  # 返回顶部组件
-│   │   └── utils.js            # 工具函数（收藏管理、防抖等）
+│   │   └── utils.js            # 工具函数
 │   ├── App.svelte          # 主应用组件
 │   ├── main.js             # 入口文件
 │   └── app.css             # 全局样式
@@ -157,13 +157,11 @@ LinkHub/
 
 - 支持明亮/暗黑两种主题
 - 主题偏好存储在 LocalStorage
-- 自动跟随系统主题（可选）
 
 ### 响应式设计
 
-- **PC 端**: 左侧固定导航栏 + 右侧多列卡片展示
+- **PC 端**: 左侧固定导航栏 + 右侧多列卡片展示, 支持手动显示/隐藏侧边栏
 - **移动端**: 左侧导航收起为顶部菜单按钮，单列卡片展示
-- Web 端支持手动显示/隐藏侧边栏
 
 ## 开发规范
 

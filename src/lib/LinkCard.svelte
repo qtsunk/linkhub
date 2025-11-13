@@ -26,23 +26,23 @@
   function getIconPath(favicon, url) {
     // 默认图标路径
     const defaultIcon = '/icons/default.svg'
-    
+
     // 方式1：如果配置了本地图标，优先使用
     if (favicon) {
       // 如果是完整的URL（http:// 或 https://），直接使用
       if (favicon.startsWith('http://') || favicon.startsWith('https://')) {
         return favicon
       }
-      
+
       // 如果是本地路径（以 / 开头），直接使用
       if (favicon.startsWith('/')) {
         return favicon
       }
-      
+
       // 否则作为本地图标路径处理（相对于 icons 目录）
       return `/icons/${favicon}`
     }
-    
+
     // 方式2：如果没有配置本地图标，使用 Favicon.im API
     if (url) {
       try {
@@ -54,7 +54,7 @@
         return defaultIcon
       }
     }
-    
+
     // 方式3：都没有配置，使用默认图标
     return defaultIcon
   }
@@ -64,7 +64,7 @@
     e.stopPropagation()
     // 立即更新本地状态，实现即时 UI 反馈
     localFavoriteState = !localFavoriteState
-    
+
     if (!localFavoriteState) {
       favoritesStore.removeFavorite(site.url)
     } else {
@@ -107,7 +107,7 @@
     if (tooltipElement) {
       const tooltipRect = tooltipElement.getBoundingClientRect()
       const actualTooltipHeight = tooltipRect.height
-      
+
       // 如果实际高度导致位置不合适，重新调整
       if (tooltipPosition === 'bottom' && spaceBelow < actualTooltipHeight && spaceAbove > spaceBelow) {
         tooltipPosition = 'top'
@@ -173,7 +173,7 @@
         >
           {site.description || '暂无描述'}
         </p>
-        
+
         <!-- Tooltip - 根据位置显示在上方或下方 -->
         {#if showTooltip && (site.description || '暂无描述') !== '暂无描述'}
           <div

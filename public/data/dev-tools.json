@@ -1,5 +1,35 @@
 [
   {
+    "subcategory": "可视化与原型工具",
+    "sites": [
+      {
+        "name": "draw.io",
+        "url": "https://www.drawio.com/",
+        "description": "在线绘制流程图、架构图及设计图。"
+      },
+      {
+        "name": "ProcessOn",
+        "url": "https://www.processon.com/",
+        "description": "国产在线协作画图工具，支持多人实时编辑。"
+      },
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com/",
+        "description": "手绘风格在线协作画图工具。"
+      },
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com/",
+        "description": "领先的在线原型设计与协作工具。"
+      },
+      {
+        "name": "React Flow",
+        "url": "https://reactflow.dev/",
+        "description": "React 可定制化工作流和可视化节点库。"
+      }
+    ]
+  },
+  {
     "subcategory": "前端组件库",
     "sites": [
       {
@@ -30,57 +60,57 @@
     ]
   },
   {
-    "subcategory": "网站托管与部署",
+    "subcategory": "后端组件库",
     "sites": [
       {
-        "name": "Vercel",
-        "url": "https://vercel.com/",
-        "description": "提供云基础设施与开发工具，加速构建和部署网站。"
+        "name": "NestJS",
+        "url": "https://nestjs.com/",
+        "description": "基于 TypeScript 的 Node.js 后端框架，支持模块化架构与依赖注入，适合构建高可维护性服务。"
       },
       {
-        "name": "Netlify",
-        "url": "https://www.netlify.com/",
-        "description": "现代化网站托管与持续部署平台。"
+        "name": "Express",
+        "url": "https://expressjs.com/",
+        "description": "经典轻量级 Node.js Web 框架，生态完善，适合快速构建 RESTful 接口。"
       },
       {
-        "name": "Cloudflare",
-        "url": "https://dash.cloudflare.com/",
-        "description": "CDN 和分布式域名解析服务提供商。"
+        "name": "FastAPI",
+        "url": "https://fastapi.tiangolo.com/",
+        "description": "现代化的 Python Web 框架，基于类型提示自动生成文档，性能接近 Node 与 Go。"
       },
       {
-        "name": "Tencent EdgeOne",
-        "url": "https://edgeone.ai/zh",
-        "description": "亚洲领先的CDN与边缘安全解决方案提供商。"
-      }
-    ]
-  },
-  {
-    "subcategory": "可视化与原型工具",
-    "sites": [
-      {
-        "name": "draw.io",
-        "url": "https://www.drawio.com/",
-        "description": "在线绘制流程图、架构图及设计图。"
+        "name": "Django",
+        "url": "https://www.djangoproject.com/",
+        "description": "全功能 Python Web 框架，自带 ORM、认证、模板系统，适合快速开发与管理后台。"
       },
       {
-        "name": "ProcessOn",
-        "url": "https://www.processon.com/",
-        "description": "国产在线协作画图工具，支持多人实时编辑。"
+        "name": "Spring Boot",
+        "url": "https://spring.io/projects/spring-boot",
+        "description": "简化 Spring 配置的 Java 企业级后端框架，广泛用于微服务与大型项目。"
       },
       {
-        "name": "Excalidraw",
-        "url": "https://excalidraw.com/",
-        "description": "手绘风格在线协作画图工具。"
+        "name": "Gin",
+        "url": "https://gin-gonic.com/",
+        "description": "高性能 Go Web 框架，API 设计简洁直观，性能优于标准 net/http。"
       },
       {
-        "name": "Figma",
-        "url": "https://www.figma.com/",
-        "description": "领先的在线原型设计与协作工具。"
+        "name": "Fiber",
+        "url": "https://gofiber.io/",
+        "description": "受 Express 启发的 Go Web 框架，基于 fasthttp，具备极高性能。"
       },
       {
-        "name": "React Flow",
-        "url": "https://reactflow.dev/",
-        "description": "React 可定制化工作流和可视化节点库。"
+        "name": "Laravel",
+        "url": "https://laravel.com/",
+        "description": "PHP 生态中最流行的后端框架，优雅语法与丰富组件适合构建现代 Web 应用。"
+      },
+      {
+        "name": "ASP.NET Core",
+        "url": "https://dotnet.microsoft.com/apps/aspnet",
+        "description": "微软推出的跨平台 Web 框架，适合企业级应用和微服务架构。"
+      },
+      {
+        "name": "AdonisJS",
+        "url": "https://adonisjs.com/",
+        "description": "全栈 Node.js 框架，提供 ORM、验证、路由等完整后端开发体验。"
       }
     ]
   },
@@ -126,6 +156,31 @@
         "name": "Windsurf",
         "url": "https://codeium.com/",
         "description": "面向开发的AI辅助 IDE。"
+      }
+    ]
+  },
+  {
+    "subcategory": "网站托管与部署",
+    "sites": [
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com/",
+        "description": "提供云基础设施与开发工具，加速构建和部署网站。"
+      },
+      {
+        "name": "Netlify",
+        "url": "https://www.netlify.com/",
+        "description": "现代化网站托管与持续部署平台。"
+      },
+      {
+        "name": "Cloudflare",
+        "url": "https://dash.cloudflare.com/",
+        "description": "CDN 和分布式域名解析服务提供商。"
+      },
+      {
+        "name": "Tencent EdgeOne",
+        "url": "https://edgeone.ai/zh",
+        "description": "亚洲领先的CDN与边缘安全解决方案提供商。"
       }
     ]
   },
@@ -211,7 +266,7 @@
         "name": "Docker Hub",
         "url": "https://hub.docker.com/",
         "description": "Docker 官方镜像仓库，提供容器镜像的托管、分发与团队协作功能。"
-      },      
+      },
       {
         "name": "Hugging Face",
         "url": "https://huggingface.co/",
@@ -251,7 +306,7 @@
         "name": "ShellCheck",
         "url": "https://www.shellcheck.net/",
         "description": "Shell脚本静态分析与语法检查工具，帮助发现常见错误与提升脚本可维护性。"
-      }      
+      }
     ]
   },
   {
@@ -261,7 +316,7 @@
         "name": "ifconfig.io",
         "url": "https://ifconfig.io/",
         "description": "轻量级在线工具，用于快速查询当前公网IP地址及相关网络信息，支持命令行访问。"
-      }      
+      }
     ]
   },
   {
@@ -306,7 +361,7 @@
         "name": "Awesome Lists",
         "url": "https://github.com/sindresorhus/awesome",
         "description": "开源项目和工具的精选列表集合。"
-      },  
+      },
       {
         "name": "FileHorse",
         "url": "https://filehorse.com/",
@@ -335,7 +390,37 @@
     ]
   },
   {
-    "subcategory": "SSL证书与网站安全",
+    "subcategory": "实用工具",
+    "sites": [
+      {
+        "name": "Rufus",
+        "url": "https://rufus.ie/",
+        "description": "轻量级启动盘制作工具，可快速将 ISO 镜像写入 USB 设备，用于安装操作系统或系统维护。"
+      },
+      {
+        "name": "Cloudreve",
+        "url": "https://cloudreve.org/",
+        "description": "开源云盘系统，支持多存储后端（本地、OSS、S3 等），可自建网盘、分享文件并支持 WebDAV。"
+      },
+      {
+        "name": "DriverPack",
+        "url": "https://driverpack.io/zh-cn",
+        "description": "自动识别并安装电脑驱动程序的工具，支持离线和在线模式，适合系统重装后的快速驱动配置。"
+      },
+      {
+        "name": "LocalSend",
+        "url": "https://localsend.org/zh-CN",
+        "description": "跨平台的局域网文件传输工具，支持 Windows、macOS、Linux、Android 与 iOS，无需联网即可传输。"
+      },
+      {
+        "name": "Arthas",
+        "url": "https://arthas.aliyun.com/",
+        "description": "阿里巴巴开源的 Java 诊断工具，支持实时监控、字节码查看与问题定位，常用于生产环境排查。"
+      }
+    ]
+  },
+  {
+    "subcategory": "SSL 证书工具",
     "sites": [
       {
         "name": "SSL Labs",

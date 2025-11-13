@@ -121,6 +121,11 @@
         "name": "Trello",
         "url": "https://trello.com/",
         "description": "可视化看板工具，支持团队任务管理与协作。"
+      },
+      {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com/",
+        "description": "Google 推出的 AI 笔记助手，可基于用户上传的资料生成摘要、问答与关联笔记，帮助整理和理解信息内容。"
       }
     ]
   },

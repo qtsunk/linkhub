@@ -7,7 +7,7 @@
   },
   {
     "id": "ai-tools",
-    "category": "AI 工具",
+    "category": "AI服务与工具",
     "icon": "fas fa-robot",
     "file": "ai-tools.json"
   },
@@ -31,13 +31,13 @@
   },
   {
     "id": "investment",
-    "category": "投资者工具",
+    "category": "投资者服务",
     "icon": "fas fa-chart-line",
     "file": "investment.json"
   },
   {
     "id": "creator",
-    "category": "创作工具",
+    "category": "创作平台与工具",
     "icon": "fas fa-video",
     "file": "creator.json"
   },

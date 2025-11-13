@@ -24,7 +24,7 @@
     try {
       const response = await fetch('/data/data.json')
       categories = await response.json()
-      
+
       // 加载所有分类数据用于全局搜索
       await loadAllCategoriesData()
     } catch (error) {
@@ -70,7 +70,7 @@
     try {
       const response = await fetch(`/data/${category.file}`)
       const allData = await response.json()
-      
+
       // 如果指定了二级分类，只显示该二级分类的数据
       if (subcategory) {
         categoryData = allData.filter(sub => sub.subcategory === subcategory.subcategory)
@@ -112,7 +112,7 @@
 
   // 获取收藏列表
   $: favorites = favoritesStore.getFavorites()
-  
+
   // 当收藏发生变化时更新
   function handleFavoriteUpdate() {
     favorites = favoritesStore.getFavorites()

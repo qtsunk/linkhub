@@ -9,22 +9,22 @@
   function handleScroll() {
     // 获取 window 的滚动位置
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0
-    
+
     // 如果滚动到顶部，隐藏按钮
     if (scrollTop <= 0) {
       showButton = false
       lastScrollTop = 0
       return
     }
-    
+
     // 判断滚动方向：向上滚动（scrollTop 减小）时显示按钮
     const isScrollingUp = scrollTop < lastScrollTop
-    
+
     // 只要向上滚动就显示按钮，不限制滚动幅度
     if (isScrollingUp) {
       showButton = true
     }
-    
+
     // 更新上次滚动位置
     lastScrollTop = scrollTop
   }

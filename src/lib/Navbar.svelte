@@ -12,7 +12,7 @@
   let searchValue = searchQuery
   let searchTimeout = null
   let searchComponent // Search 组件的引用
-  
+
   // 防抖搜索函数，延迟 200ms 执行搜索
   function handleSearch(e) {
     searchValue = e.detail

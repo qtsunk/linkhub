@@ -1,6 +1,6 @@
 <script>
   import { fade, slide } from 'svelte/transition'
-  
+
   export let categories = []
   export let currentCategory = null // 当前选中的分类
   export let currentSubcategory = null // 当前选中的二级分类
@@ -61,7 +61,7 @@
     const categoryMatch = currentCategory.id === category.id
     return subcategoryMatch && categoryMatch
   }
-  
+
   // 创建一个响应式变量来跟踪当前选中的二级分类
   // 使用方括号访问属性以绕过 TypeScript 类型检查
   $: activeSubcategoryKey = (() => {

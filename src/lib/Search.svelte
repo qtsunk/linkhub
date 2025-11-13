@@ -15,7 +15,7 @@
   let searchResults = []
   let showDropdown = false
   let selectedIndex = -1
-  
+
   // 移动端悬浮模式
   let isMobileExpanded = false
   let isMobile = false
@@ -44,7 +44,7 @@
     const newValue = e.target.value
     value = newValue
     dispatch('search', newValue)
-    
+
     // 执行搜索 - 确保数据已加载
     if (newValue.trim()) {
       if (allCategoriesData && allCategoriesData.length > 0) {
@@ -81,7 +81,7 @@
                 if (site && site.name) {
                   const nameMatch = site.name.toLowerCase().includes(queryLower)
                   const descMatch = site.description && site.description.toLowerCase().includes(queryLower)
-                  
+
                   if (nameMatch || descMatch) {
                     results.push({
                       ...site,
@@ -122,23 +122,23 @@
   function getIconPath(favicon, url) {
     // 默认图标路径
     const defaultIcon = '/icons/default.svg'
-    
+
     // 方式1：如果配置了本地图标，优先使用
     if (favicon) {
       // 如果是完整的URL（http:// 或 https://），直接使用
       if (favicon.startsWith('http://') || favicon.startsWith('https://')) {
         return favicon
       }
-      
+
       // 如果是本地路径（以 / 开头），直接使用
       if (favicon.startsWith('/')) {
         return favicon
       }
-      
+
       // 否则作为本地图标路径处理（相对于 icons 目录）
       return `/icons/${favicon}`
     }
-    
+
     // 方式2：如果没有配置本地图标，使用 Favicon.im API
     if (url) {
       try {
@@ -150,7 +150,7 @@
         return defaultIcon
       }
     }
-    
+
     // 方式3：都没有配置，使用默认图标
     return defaultIcon
   }
@@ -284,7 +284,7 @@
     checkMobile()
     window.addEventListener('resize', checkMobile)
     document.addEventListener('click', handleClickOutside)
-    
+
     return () => {
       window.removeEventListener('resize', checkMobile)
       document.removeEventListener('click', handleClickOutside)
@@ -352,7 +352,7 @@
         <i class="fas fa-times text-lg"></i>
       </button>
     </div>
-    
+
     <!-- 移动端搜索结果 -->
     {#if showDropdown && searchResults.length > 0}
       <div class="px-4 pb-4 max-h-[calc(100vh-80px)] overflow-y-auto">
@@ -480,5 +480,3 @@
     </div>
   {/if}
 </div>
-
-<!-- 移动端搜索框占位已移除，现在由 Navbar 中的搜索图标触发 -->
