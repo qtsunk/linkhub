@@ -800,17 +800,67 @@
       {
         "name": "VuePress",
         "url": "https://vuepress.vuejs.org/",
-        "description": "基于Vue的静态网站生成器。"
+        "description": "基于 Vue 的静态网站生成器，适合文档和博客。"
       },
       {
         "name": "MkDocs",
         "url": "https://www.mkdocs.org/",
-        "description": "简单高效的文档静态站点生成器。"
+        "description": "简单高效的文档静态站点生成器，支持 Markdown。"
       },
       {
         "name": "Hugo",
         "url": "https://gohugo.io/",
-        "description": "快速、灵活的静态网站生成工具。"
+        "description": "快速、灵活的静态网站生成工具，适合博客和文档网站。"
+      },
+      {
+        "name": "Sphinx",
+        "url": "https://www.sphinx-doc.org/",
+        "description": "Python 文档生成器，支持 reStructuredText 和自动化 API 文档生成。"
+      },
+      {
+        "name": "Jekyll",
+        "url": "https://jekyllrb.com/",
+        "description": "GitHub Pages 官方支持的静态网站生成器，适合博客和文档站点。"
+      },
+      {
+        "name": "GitBook",
+        "url": "https://www.gitbook.com/",
+        "description": "现代文档和知识库生成平台，支持 Markdown 编辑与在线发布。"
+      },
+      {
+        "name": "Read the Docs",
+        "url": "https://readthedocs.org/",
+        "description": "自动构建和托管开源文档，支持 Sphinx 和 MkDocs。"
+      },
+      {
+        "name": "Antora",
+        "url": "https://antora.org/",
+        "description": "针对多版本文档的静态网站生成器，支持结构化文档管理。"
+      },
+      {
+        "name": "Slate",
+        "url": "https://slatedocs.github.io/slate/",
+        "description": "漂亮的 API 文档生成器，支持 Markdown 格式和响应式布局。"
+      },
+      {
+        "name": "DocFX",
+        "url": "https://dotnet.github.io/docfx/",
+        "description": "Microsoft 提供的文档生成器，可生成 .NET API 文档和静态站点。"
+      },
+      {
+        "name": "Asciidoctor",
+        "url": "https://asciidoctor.org/",
+        "description": "将 AsciiDoc 转换为 HTML、PDF 和其他格式的高质量文档生成工具。"
+      },
+      {
+        "name": "Harp",
+        "url": "http://harpjs.com/",
+        "description": "支持预处理器的静态网站生成器，适合快速搭建文档和项目站点。"
+      },
+      {
+        "name": "Documize",
+        "url": "https://documize.com/",
+        "description": "企业级文档管理与生成平台，支持 Markdown、协作编辑与自托管。"
       }
     ]
   },
@@ -820,7 +870,7 @@
       {
         "name": "Free for Developers",
         "url": "https://free-for.dev/#/",
-        "description": "开发者和开源作者免费资源集合。"
+        "description": "开发者和开源作者免费资源集合，涵盖 API、数据库、托管服务等。"
       },
       {
         "name": "DevDocs",
@@ -835,27 +885,67 @@
       {
         "name": "FileHorse",
         "url": "https://filehorse.com/",
-        "description": "提供软件下载、更新、卸载及系统优化工具，支持Windows、Mac和Android平台。"
+        "description": "提供软件下载、更新、卸载及系统优化工具，支持 Windows、Mac 和 Android 平台。"
       },
       {
         "name": "APKCombo",
         "url": "https://apkcombo.com/zh/",
-        "description": "安卓应用下载与备份平台，提供APK、XAPK文件及旧版本获取服务。"
+        "description": "安卓应用下载与备份平台，提供 APK、XAPK 文件及旧版本获取服务。"
       },
       {
         "name": "RPM Find",
         "url": "https://rpmfind.net/",
-        "description": "Linux软件包搜索引擎，支持RPM包检索、版本比较与依赖关系查询。"
+        "description": "Linux 软件包搜索引擎，支持 RPM 包检索、版本比较与依赖关系查询。"
       },
       {
         "name": "DLL-Files",
         "url": "https://cn.dll-files.com/",
-        "description": "Windows系统缺失DLL文件下载与修复服务，提供常见组件的详细说明与安装指导。"
+        "description": "Windows 系统缺失 DLL 文件下载与修复服务，提供常见组件的详细说明与安装指导。"
       },
       {
         "name": "Awesome Selfhosted",
         "url": "https://awesome-selfhosted.net/index.html",
-        "description": "一个精选的自建服务与开源软件目录，收录可自行托管的替代方案，涵盖云存储、协作工具、媒体服务器等多个领域。"
+        "description": "精选自建服务与开源软件目录，涵盖云存储、协作工具、媒体服务器等可自建软件。"
+      },
+      {
+        "name": "SourceForge",
+        "url": "https://sourceforge.net/",
+        "description": "老牌开源软件托管与下载平台，提供软件下载和开发工具。"
+      },
+      {
+        "name": "LinuxTracker",
+        "url": "https://www.linuxtracker.org/",
+        "description": "Linux 发行版下载和种子资源聚合平台，提供各种镜像和版本信息。"
+      },
+      {
+        "name": "PortableApps",
+        "url": "https://portableapps.com/",
+        "description": "便携软件集合平台，提供无需安装即可运行的软件包，适合移动设备或 USB 使用。"
+      },
+      {
+        "name": "Chocolatey",
+        "url": "https://chocolatey.org/",
+        "description": "Windows 软件包管理工具，可通过命令行快速安装、升级和卸载软件。"
+      },
+      {
+        "name": "Ninite",
+        "url": "https://ninite.com/",
+        "description": "Windows 批量软件安装工具，支持一次性安装常用应用，无需人工干预。"
+      },
+      {
+        "name": "FossHub",
+        "url": "https://www.fosshub.com/",
+        "description": "开源软件与免费软件官方下载站，提供高质量软件包和多语言支持。"
+      },
+      {
+        "name": "Portable Freeware",
+        "url": "https://www.portablefreeware.com/",
+        "description": "便携化免费软件目录，覆盖 Windows 平台各类工具和应用。"
+      },
+      {
+        "name": "OpenBuilds Parts & Software",
+        "url": "https://openbuilds.com/",
+        "description": "开源硬件相关软件与驱动下载平台，适合 DIY 和工程项目使用。"
       }
     ]
   },
@@ -886,11 +976,86 @@
         "name": "Arthas",
         "url": "https://arthas.aliyun.com/",
         "description": "阿里巴巴开源的 Java 诊断工具，支持实时监控、字节码查看与问题定位，常用于生产环境排查。"
+      },
+      {
+        "name": "Everything",
+        "url": "https://www.voidtools.com/",
+        "description": "Windows 下高效文件搜索工具，几乎瞬间索引整个硬盘，方便快速查找文件。"
+      },
+      {
+        "name": "WinMerge",
+        "url": "https://winmerge.org/",
+        "description": "开源文件对比与合并工具，支持目录和文本文件比对，适合代码和配置管理。"
+      },
+      {
+        "name": "Process Explorer",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+        "description": "Windows 平台高级进程管理和系统监控工具，可查看进程详细信息和句柄。"
+      },
+      {
+        "name": "Sysinternals Suite",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+        "description": "微软官方提供的一整套 Windows 系统管理与诊断工具合集，功能全面。"
+      },
+      {
+        "name": "HTTrack",
+        "url": "https://www.httrack.com/",
+        "description": "开源网站镜像工具，可将网站完整下载到本地离线浏览或备份。"
+      },
+      {
+        "name": "JDownloader",
+        "url": "https://jdownloader.org/",
+        "description": "开源下载管理器，支持批量下载文件、解压和自动重试，适合多平台使用。"
+      },
+      {
+        "name": "f.lux",
+        "url": "https://justgetflux.com/",
+        "description": "屏幕色温调节工具，保护眼睛健康，支持 Windows、macOS 和 Linux。"
+      },
+      {
+        "name": "Everything Portable",
+        "url": "https://www.voidtools.com/downloads/",
+        "description": "Everything 的便携版，可在 U 盘直接使用，无需安装即可进行文件快速搜索。"
+      },
+      {
+        "name": "SpaceSniffer",
+        "url": "http://www.uderzo.it/main_products/space_sniffer/",
+        "description": "可视化磁盘空间分析工具，帮助快速发现占用磁盘的大文件和文件夹。"
+      },
+      {
+        "name": "Bulk Rename Utility",
+        "url": "https://www.bulkrenameutility.co.uk/",
+        "description": "批量重命名文件工具，支持正则表达式、序列号、日期等多种规则。"
+      },
+      {
+        "name": "KeePass",
+        "url": "https://keepass.info/",
+        "description": "开源密码管理工具，本地存储密码，支持多平台和插件扩展。"
+      },
+      {
+        "name": "Autoruns",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+        "description": "Windows 系统启动项管理工具，可查看和禁用开机自动运行程序。"
+      },
+      {
+        "name": "Process Hacker",
+        "url": "https://processhacker.sourceforge.io/",
+        "description": "功能强大的进程和服务管理工具，比 Windows 任务管理器更强大。"
+      },
+      {
+        "name": "SysGauge",
+        "url": "https://www.sysgauge.com/",
+        "description": "系统监控与报告工具，可监控 CPU、内存、磁盘和网络使用情况。"
+      },
+      {
+        "name": "CPU-Z",
+        "url": "https://www.cpuid.com/softwares/cpu-z.html",
+        "description": "硬件检测工具，提供 CPU、主板、内存等硬件详细信息，适合系统诊断。"
       }
     ]
   },
   {
-    "subcategory": "SSL 证书工具",
+    "subcategory": "SSL 证书服务",
     "sites": [
       {
         "name": "SSL Labs",
