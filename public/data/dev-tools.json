@@ -628,6 +628,11 @@
         "description": "自托管平台，轻松部署应用、数据库及各种服务，支持 Docker 与 GitOps。"
       },
       {
+        "name": "Jenkins",
+        "url": "https://www.jenkins.io/",
+        "description": "开源自动化服务器，用于构建、测试和部署软件，支持丰富插件生态，实现持续集成和持续交付（CI/CD）。"
+      },
+      {
         "name": "Portainer",
         "url": "https://www.portainer.io/",
         "description": "Docker 和 Kubernetes 管理面板，可视化操作容器和集群资源。"
