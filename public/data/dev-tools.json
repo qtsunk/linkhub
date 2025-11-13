@@ -160,27 +160,102 @@
     ]
   },
   {
-    "subcategory": "网站托管与部署",
+    "subcategory": "托管与部署",
     "sites": [
       {
         "name": "Vercel",
         "url": "https://vercel.com/",
-        "description": "提供云基础设施与开发工具，加速构建和部署网站。"
+        "description": "提供云基础设施与开发工具，加速构建和部署网站，支持 Serverless 和静态网站。"
       },
       {
         "name": "Netlify",
         "url": "https://www.netlify.com/",
-        "description": "现代化网站托管与持续部署平台。"
+        "description": "现代化静态网站和前端项目托管平台，支持自动构建与持续部署。"
       },
       {
-        "name": "Cloudflare",
-        "url": "https://dash.cloudflare.com/",
-        "description": "CDN 和分布式域名解析服务提供商。"
+        "name": "Cloudflare Pages",
+        "url": "https://pages.cloudflare.com/",
+        "description": "Cloudflare 提供的静态网站托管与全球 CDN 加速服务。"
       },
       {
-        "name": "Tencent EdgeOne",
-        "url": "https://edgeone.ai/zh",
-        "description": "亚洲领先的CDN与边缘安全解决方案提供商。"
+        "name": "GitHub Pages",
+        "url": "https://pages.github.com/",
+        "description": "GitHub 提供的静态网站托管服务，直接从仓库部署网站。"
+      },
+      {
+        "name": "Render",
+        "url": "https://render.com/",
+        "description": "全栈应用部署平台，支持 Web 服务、静态网站、数据库和定时任务托管。"
+      },
+      {
+        "name": "Railway",
+        "url": "https://railway.app/",
+        "description": "面向开发者的云平台，支持快速部署网站、数据库和微服务应用。"
+      },
+      {
+        "name": "Firebase Hosting",
+        "url": "https://firebase.google.com/products/hosting",
+        "description": "谷歌提供的静态和动态网站托管平台，集成 CDN 与 HTTPS。"
+      },
+      {
+        "name": "Surge",
+        "url": "https://surge.sh/",
+        "description": "简单易用的静态网站托管平台，支持命令行快速部署。"
+      },
+      {
+        "name": "Netlify CMS",
+        "url": "https://www.netlifycms.org/",
+        "description": "配合 Netlify 部署静态网站的内容管理系统，方便无代码更新网站内容。"
+      },
+      {
+        "name": "CloudCannon",
+        "url": "https://cloudcannon.com/",
+        "description": "静态网站托管平台，提供 CMS 功能和全球 CDN 加速。"
+      },
+      {
+        "name": "Fly.io",
+        "url": "https://fly.io/",
+        "description": "边缘部署平台，支持全球节点托管网站和微服务，实现低延迟访问。"
+      },
+      {
+        "name": "Neocities",
+        "url": "https://neocities.org/",
+        "description": "免费静态网站托管平台，强调简单易用和社区分享。"
+      },
+      {
+        "name": "Fleek",
+        "url": "https://fleek.co/",
+        "description": "Web3 静态网站和去中心化应用部署平台，集成 IPFS 和 CDN。"
+      },
+      {
+        "name": "GitLab Pages",
+        "url": "https://docs.gitlab.com/ee/user/project/pages/",
+        "description": "GitLab 提供的静态网站托管服务，支持 CI/CD 自动部署。"
+      },
+      {
+        "name": "Stackbit",
+        "url": "https://www.stackbit.com/",
+        "description": "静态网站和 Jamstack 项目部署平台，集成多个 CMS 与托管服务。"
+      },
+      {
+        "name": "Zeit Now CLI",
+        "url": "https://vercel.com/docs/cli",
+        "description": "Vercel 提供的命令行工具，用于快速部署前端项目和静态网站。"
+      },
+      {
+        "name": "Pantheon",
+        "url": "https://pantheon.io/",
+        "description": "专注于 WordPress 和 Drupal 托管的高性能网站部署平台。"
+      },
+      {
+        "name": "Netlify Edge Functions",
+        "url": "https://docs.netlify.com/functions/edge-functions/",
+        "description": "Netlify 提供的边缘计算能力，可在 CDN 节点直接执行动态逻辑。"
+      },
+      {
+        "name": "Civo Web Hosting",
+        "url": "https://www.civo.com/",
+        "description": "专注 Kubernetes 和静态网站部署的轻量平台，简化全栈应用上线。"
       }
     ]
   },
@@ -201,6 +276,66 @@
         "name": "腾讯云域名",
         "url": "https://cloud.tencent.com/product/domain",
         "description": "提供域名注册、解析及管理服务。"
+      },
+      {
+        "name": "GoDaddy",
+        "url": "https://www.godaddy.com/",
+        "description": "全球知名域名注册商，提供域名注册、托管及 SSL 证书服务。"
+      },
+      {
+        "name": "Bluehost",
+        "url": "https://www.bluehost.com/domains",
+        "description": "提供域名注册、网站托管和建站服务的国际平台。"
+      },
+      {
+        "name": "Hover",
+        "url": "https://www.hover.com/",
+        "description": "简单易用的域名注册和管理平台，强调无广告干扰体验。"
+      },
+      {
+        "name": "Name.com",
+        "url": "https://www.name.com/",
+        "description": "提供域名注册、管理及相关附加服务的国际平台。"
+      },
+      {
+        "name": "Dynadot",
+        "url": "https://www.dynadot.com/",
+        "description": "全球域名注册服务商，提供域名注册、转入及拍卖服务。"
+      },
+      {
+        "name": "Gandi.net",
+        "url": "https://www.gandi.net/",
+        "description": "欧洲知名域名注册商，支持注册域名、SSL 和托管服务。"
+      },
+      {
+        "name": "Namesilo",
+        "url": "https://www.namesilo.com/",
+        "description": "提供低价域名注册、隐私保护及 DNS 管理服务的国际平台。"
+      },
+      {
+        "name": "West.cn",
+        "url": "https://www.west.cn/",
+        "description": "国内专业域名注册商，提供域名注册、解析、SSL 及企业邮箱服务。"
+      },
+      {
+        "name": "Xin Net 信网",
+        "url": "https://www.xinnet.com/",
+        "description": "国内老牌域名注册与网站托管服务商，提供企业级域名解决方案。"
+      },
+      {
+        "name": "易名中国",
+        "url": "https://www.ename.net/",
+        "description": "提供域名注册、交易、解析及管理服务，国内知名品牌。"
+      },
+      {
+        "name": "NameBright",
+        "url": "https://www.namebright.com/",
+        "description": "国际域名注册商，提供域名注册、转入及批量管理服务。"
+      },
+      {
+        "name": "1&1 IONOS",
+        "url": "https://www.ionos.com/domains",
+        "description": "欧洲大型域名注册和云服务平台，支持域名、网站和邮箱服务。"
       }
     ]
   },
@@ -241,6 +376,96 @@
         "name": "火山引擎（Volcengine）",
         "url": "https://www.volcengine.com/",
         "description": "字节跳动旗下的云服务平台，提供计算、存储、AI、大数据、视频、音频等全栈云解决方案。"
+      },
+      {
+        "name": "Google Cloud",
+        "url": "https://cloud.google.com/",
+        "description": "谷歌提供的全球云服务平台，涵盖计算、存储、AI、分析和大数据。"
+      },
+      {
+        "name": "Microsoft Azure",
+        "url": "https://azure.microsoft.com/",
+        "description": "微软提供的企业级云平台，支持混合云、AI、数据库和开发工具。"
+      },
+      {
+        "name": "腾讯云 CVM",
+        "url": "https://cloud.tencent.com/product/cvm",
+        "description": "国内大型云服务商，提供弹性计算、网络、存储和安全解决方案。"
+      },
+      {
+        "name": "华为云 ECS",
+        "url": "https://support.huaweicloud.com/ecs/index.html",
+        "description": "华为云计算服务，支持弹性云服务器、容器、AI与大数据计算。"
+      },
+      {
+        "name": "Oracle Cloud",
+        "url": "https://www.oracle.com/cloud/",
+        "description": "甲骨文提供的企业云服务，涵盖数据库、应用和计算平台。"
+      },
+      {
+        "name": "Linode",
+        "url": "https://www.linode.com/",
+        "description": "提供简单易用的云服务器、存储和网络解决方案，适合开发者使用。"
+      },
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com/",
+        "description": "前端部署与 Serverless 平台，支持 Next.js 等现代前端框架的全栈部署。"
+      },
+      {
+        "name": "Render",
+        "url": "https://render.com/",
+        "description": "全栈云平台，提供 Web 服务、静态网站、数据库和 Cron 作业托管。"
+      },
+      {
+        "name": "Railway",
+        "url": "https://railway.app/",
+        "description": "开发者友好的云平台，支持快速部署数据库、应用和服务，自动管理基础设施。"
+      },
+      {
+        "name": "Firebase",
+        "url": "https://firebase.google.com/",
+        "description": "谷歌提供的 BaaS 平台，提供实时数据库、身份认证、存储和托管服务。"
+      },
+      {
+        "name": "Fly.io",
+        "url": "https://fly.io/",
+        "description": "边缘云平台，支持在全球节点部署应用和数据库，实现低延迟访问。"
+      },
+      {
+        "name": "Civo",
+        "url": "https://www.civo.com/",
+        "description": "快速部署 Kubernetes 的云平台，提供云服务器和 DevOps 工具。"
+      },
+      {
+        "name": "OpenAI Cloud",
+        "url": "https://platform.openai.com/",
+        "description": "提供 AI 模型调用和托管服务，包括 GPT 系列和多模态模型。"
+      },
+      {
+        "name": "百度智能云 BCC",
+        "url": "https://cloud.baidu.com/product/bcc.html",
+        "description": "百度云计算平台，提供弹性计算、存储、数据库和 AI 服务。"
+      },
+      {
+        "name": "京东云 ECS",
+        "url": "https://www.jdcloud.com/cn/products/jc",
+        "description": "京东提供的云计算服务平台，涵盖计算、存储、数据库与 AI。"
+      },
+      {
+        "name": "阿里云函数计算 FC",
+        "url": "https://www.aliyun.com/product/fc",
+        "description": "支持 Serverless 架构的计算平台，按调用量计费，无需管理服务器。"
+      },
+      {
+        "name": "腾讯云函数 SCF",
+        "url": "https://cloud.tencent.com/product/scf",
+        "description": "Serverless 计算服务，快速运行函数代码，无需管理服务器。"
+      },
+      {
+        "name": "华为云函数工作流",
+        "url": "https://support.huaweicloud.com/functiongraph/index.html",
+        "description": "提供 Serverless 功能和事件驱动工作流管理，支持多种编程语言。"
       }
     ]
   },
@@ -271,6 +496,116 @@
         "name": "Hugging Face",
         "url": "https://huggingface.co/",
         "description": "社区驱动的AI应用展示与分享平台，支持部署机器学习模型和交互式Web应用。"
+      },
+      {
+        "name": "Apache",
+        "url": "https://www.apache.org/",
+        "description": "Apache基金会，提供众多开源项目如Spark、Kafka、Flink等。"
+      },
+      {
+        "name": "GitLab",
+        "url": "https://gitlab.com/",
+        "description": "集代码托管、CI/CD、项目管理为一体的开源平台。"
+      },
+      {
+        "name": "PyPI",
+        "url": "https://pypi.org/",
+        "description": "Python 官方包管理和开源库平台，提供数十万开源Python包。"
+      },
+      {
+        "name": "Maven Central",
+        "url": "https://search.maven.org/",
+        "description": "Java 生态中最主要的开源依赖仓库，提供 Maven/Gradle 包下载。"
+      },
+      {
+        "name": "CDNJS",
+        "url": "https://cdnjs.com/",
+        "description": "开源前端库 CDN 托管平台，方便快速加载常用 JS/CSS 库。"
+      },
+      {
+        "name": "国内开源镜像站 OSS",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/",
+        "description": "清华大学开源镜像站，提供 Linux、Python、Node.js 等常用开源组件镜像。"
+      },
+      {
+        "name": "Gitee",
+        "url": "https://gitee.com/",
+        "description": "国内最大的开源代码托管平台，类似 GitHub，支持私有与公有项目。"
+      },
+      {
+        "name": "Coding.net",
+        "url": "https://coding.net/",
+        "description": "国内开源与团队协作平台，提供代码托管、CI/CD、项目管理。"
+      },
+      {
+        "name": "前端开源库 Awesome",
+        "url": "https://awesome.re/",
+        "description": "收集整理各类高质量开源资源与库的汇总网站。"
+      },
+      {
+        "name": "JSDelivr",
+        "url": "https://www.jsdelivr.com/",
+        "description": "前端静态资源 CDN，支持 npm、GitHub、WordPress 插件库加载。"
+      },
+      {
+        "name": "Ant Design",
+        "url": "https://ant.design/",
+        "description": "阿里开源的企业级 React UI 组件库，国内外广泛使用。"
+      },
+      {
+        "name": "Element UI",
+        "url": "https://element.eleme.io/",
+        "description": "饿了么开源的 Vue 2.x UI 组件库，企业级前端解决方案。"
+      },
+      {
+        "name": "Vuetify",
+        "url": "https://vuetifyjs.com/",
+        "description": "Vue.js 官方风格的 Material Design UI 组件库。"
+      },
+      {
+        "name": "Flutter Packages",
+        "url": "https://pub.dev/",
+        "description": "Flutter 官方插件与包管理平台，包含大量开源 UI 和功能组件。"
+      },
+      {
+        "name": "OpenAI API Docs",
+        "url": "https://platform.openai.com/docs",
+        "description": "OpenAI 官方提供的 API 文档和 SDK 示例，便于接入 AI 功能。"
+      },
+      {
+        "name": "TensorFlow Hub",
+        "url": "https://tfhub.dev/",
+        "description": "TensorFlow 官方提供的可复用机器学习模型库。"
+      },
+      {
+        "name": "Apache ECharts",
+        "url": "https://echarts.apache.org/",
+        "description": "百度开源的可视化图表库，支持大规模数据交互。"
+      },
+      {
+        "name": "Three.js",
+        "url": "https://threejs.org/",
+        "description": "跨平台 3D 图形渲染库，支持 WebGL 的高性能前端开发。"
+      },
+      {
+        "name": "Chart.js",
+        "url": "https://www.chartjs.org/",
+        "description": "轻量级开源图表库，适合快速生成各类可视化图表。"
+      },
+      {
+        "name": "Bootstrap",
+        "url": "https://getbootstrap.com/",
+        "description": "全球流行的前端 UI 框架，提供响应式布局和丰富组件。"
+      },
+      {
+        "name": "Tailwind CSS",
+        "url": "https://tailwindcss.com/",
+        "description": "功能类优先的 CSS 框架，适合现代前端快速开发。"
+      },
+      {
+        "name": "Shadcn UI",
+        "url": "https://ui.shadcn.com/",
+        "description": "基于 Tailwind CSS 的高质量 React UI 组件库，易于扩展。"
       }
     ]
   },
@@ -278,34 +613,124 @@
     "subcategory": "运维工具",
     "sites": [
       {
-        "name": "宝塔",
-        "url": "https://www.bt.cn/new/index.html",
-        "description": "国内用户量大的服务器运维面板。"
-      },
-      {
         "name": "1Panel",
         "url": "https://1panel.cn/",
-        "description": "直观Web界面管理Linux服务器应用、网站、数据库及LLM。"
+        "description": "直观 Web 界面管理 Linux 服务器应用、网站、数据库及 LLM 服务。"
       },
       {
         "name": "Dokploy",
         "url": "https://dokploy.com/zh-Hans",
-        "description": "简洁高效的一站式项目和系统管理工具。"
+        "description": "简洁高效的一站式项目和系统管理工具，适合 DevOps 场景。"
       },
       {
         "name": "Coolify",
         "url": "https://coolify.io/",
-        "description": "自托管平台，轻松部署应用、数据库及服务。"
+        "description": "自托管平台，轻松部署应用、数据库及各种服务，支持 Docker 与 GitOps。"
       },
       {
         "name": "Portainer",
         "url": "https://www.portainer.io/",
-        "description": "Docker和Kubernetes管理面板。"
+        "description": "Docker 和 Kubernetes 管理面板，可视化操作容器和集群资源。"
       },
       {
         "name": "ShellCheck",
         "url": "https://www.shellcheck.net/",
-        "description": "Shell脚本静态分析与语法检查工具，帮助发现常见错误与提升脚本可维护性。"
+        "description": "Shell 脚本静态分析工具，帮助发现常见错误与提升脚本可维护性。"
+      },
+      {
+        "name": "Ansible",
+        "url": "https://www.ansible.com/",
+        "description": "开源自动化运维平台，支持配置管理、应用部署与任务编排，适合大规模服务器管理。"
+      },
+      {
+        "name": "Terraform",
+        "url": "https://www.terraform.io/",
+        "description": "基础设施即代码工具，可管理云、虚拟机及本地资源，实现自动化配置。"
+      },
+      {
+        "name": "Netdata",
+        "url": "https://www.netdata.cloud/",
+        "description": "实时性能监控工具，监控服务器、应用和网络运行状态，可部署在本地环境。"
+      },
+      {
+        "name": "Zabbix",
+        "url": "https://www.zabbix.com/",
+        "description": "企业级监控平台，支持服务器、网络设备及应用性能监控，本地部署高可扩展性。"
+      },
+      {
+        "name": "Grafana",
+        "url": "https://grafana.com/",
+        "description": "开源可视化监控平台，可与 Prometheus、InfluxDB 等结合，绘制实时指标仪表盘。"
+      },
+      {
+        "name": "Prometheus",
+        "url": "https://prometheus.io/",
+        "description": "开源监控系统和时间序列数据库，提供指标采集、告警和可视化集成能力。"
+      },
+      {
+        "name": "Cockpit",
+        "url": "https://cockpit-project.org/",
+        "description": "Linux 服务器图形化管理工具，支持系统监控、用户管理和服务管理，本地部署。"
+      },
+      {
+        "name": "Nagios Core",
+        "url": "https://www.nagios.org/projects/nagios-core/",
+        "description": "成熟的开源 IT 基础设施监控工具，支持主机、服务和网络设备的状态检测与告警。"
+      },
+      {
+        "name": "Icinga",
+        "url": "https://icinga.com/",
+        "description": "Nagios 分支项目，提供更现代化监控界面和扩展插件体系，适合企业自部署。"
+      },
+      {
+        "name": "htop",
+        "url": "https://htop.dev/",
+        "description": "交互式 Linux 系统进程查看器，比 top 更直观，支持进程管理和资源监控。"
+      },
+      {
+        "name": "Glances",
+        "url": "https://nicolargo.github.io/glances/",
+        "description": "跨平台系统监控工具，提供 CPU、内存、磁盘、网络和进程实时监控。"
+      },
+      {
+        "name": "tcpdump",
+        "url": "https://www.tcpdump.org/",
+        "description": "经典命令行抓包工具，用于分析和诊断网络流量与协议问题。"
+      },
+      {
+        "name": "Wireshark",
+        "url": "https://www.wireshark.org/",
+        "description": "专业网络协议分析工具，支持抓包、解析和可视化网络流量，适合深度网络排查。"
+      },
+      {
+        "name": "strace",
+        "url": "https://strace.io/",
+        "description": "Linux 系统调用跟踪工具，帮助开发和运维人员调试进程和诊断系统问题。"
+      },
+      {
+        "name": "tmux",
+        "url": "https://github.com/tmux/tmux",
+        "description": "终端复用工具，支持多会话管理、窗口拆分和远程工作，提高终端操作效率。"
+      },
+      {
+        "name": "Nagios Log Server",
+        "url": "https://www.nagios.com/products/nagios-log-server/",
+        "description": "集中化日志管理和分析工具，适合本地部署进行系统和应用日志监控。"
+      },
+      {
+        "name": "Elastic Stack (ELK)",
+        "url": "https://www.elastic.co/elastic-stack",
+        "description": "用于日志采集、存储、搜索和可视化的开源工具套件，本地部署可进行集中运维分析。"
+      },
+      {
+        "name": "Fail2Ban",
+        "url": "https://www.fail2ban.org/",
+        "description": "安全运维工具，通过监控日志自动禁止恶意 IP，防止暴力破解和入侵。"
+      },
+      {
+        "name": "Logrotate",
+        "url": "https://linux.die.net/man/8/logrotate",
+        "description": "Linux 系统日志轮转工具，自动管理日志文件大小和归档，保持系统整洁。"
       }
     ]
   },
@@ -316,6 +741,51 @@
         "name": "ifconfig.io",
         "url": "https://ifconfig.io/",
         "description": "轻量级在线工具，用于快速查询当前公网IP地址及相关网络信息，支持命令行访问。"
+      },
+      {
+        "name": "Ping.eu",
+        "url": "https://ping.eu/",
+        "description": "提供在线 Ping、Traceroute、DNS 查找和端口扫描等网络工具，方便快速测试网络状态。"
+      },
+      {
+        "name": "IPinfo",
+        "url": "https://ipinfo.io/",
+        "description": "提供详细 IP 地址信息查询，包括地理位置、ISP、ASN、IP 类型等数据。"
+      },
+      {
+        "name": "Speedtest by Ookla",
+        "url": "https://www.speedtest.net/",
+        "description": "全球知名在线网速测试平台，测量下载、上传速度和网络延迟。"
+      },
+      {
+        "name": "DNS Checker",
+        "url": "https://dnschecker.org/",
+        "description": "提供全球 DNS 解析检查、域名传播状态及记录查询的在线工具。"
+      },
+      {
+        "name": "MXToolbox",
+        "url": "https://mxtoolbox.com/",
+        "description": "在线邮件和网络诊断工具，支持 MX、DNS、Blacklist 查询及网络故障排查。"
+      },
+      {
+        "name": "WhatIsMyIP",
+        "url": "https://www.whatismyip.com/",
+        "description": "提供公网 IP 查询、IP 地址定位和网络信息分析服务。"
+      },
+      {
+        "name": "Traceroute Online",
+        "url": "https://www.traceroute.org/",
+        "description": "提供全球各地服务器的在线 Traceroute 测试，帮助分析网络路径与延迟。"
+      },
+      {
+        "name": "IPVoid",
+        "url": "https://www.ipvoid.com/",
+        "description": "提供 IP 地址和域名的安全检测工具，包括黑名单查询、地理位置和服务提供商信息。"
+      },
+      {
+        "name": "Online Port Scanner",
+        "url": "https://www.yougetsignal.com/tools/open-ports/",
+        "description": "在线端口扫描工具，可检测服务器开放端口及网络安全状态。"
       }
     ]
   },

@@ -3,29 +3,54 @@
     "subcategory": "科技新闻与产品",
     "sites": [
       {
-        "name": "Hacker News",
-        "url": "https://news.ycombinator.com/",
-        "description": "计算机黑客与创业公司的社交新闻网站。"
-      },
-      {
-        "name": "Product Hunt",
-        "url": "https://www.producthunt.com/",
-        "description": "发现新奇有趣的产品平台。"
-      },
-      {
         "name": "TechCrunch",
         "url": "https://techcrunch.com/",
-        "description": "报道科技创业公司与产品资讯的权威媒体。"
+        "description": "报道科技创业公司、融资动态、产品发布及科技趋势的权威媒体。"
       },
       {
         "name": "The Verge",
         "url": "https://www.theverge.com/",
-        "description": "科技、电子产品与文化新闻报道网站。"
+        "description": "科技、电子产品、创新文化与科学新闻网站，提供深度报道与评论。"
       },
       {
-        "name": "Reddit",
-        "url": "https://www.reddit.com/",
-        "description": "拥有数万个社区，用户讨论各类话题的平台。"
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/",
+        "description": "聚焦科技、硬件、软件和 IT 行业新闻及分析的专业媒体网站。"
+      },
+      {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/",
+        "description": "提供电子产品新闻、评测、发布信息和科技趋势报道的平台。"
+      },
+      {
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com/",
+        "description": "关注科技创业、创新产品和 AI 等前沿技术的新闻网站。"
+      },
+      {
+        "name": "Wired",
+        "url": "https://www.wired.com/",
+        "description": "报道科技、文化、商业和设计创新，提供深度分析和趋势洞察。"
+      },
+      {
+        "name": "CNET",
+        "url": "https://www.cnet.com/",
+        "description": "提供电子产品新闻、评测、科技趋势及购买指南的综合媒体网站。"
+      },
+      {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/",
+        "description": "科技新闻与产品评测平台，覆盖最新电子产品、软件与创新科技动态。"
+      },
+      {
+        "name": "PCMag",
+        "url": "https://www.pcmag.com/",
+        "description": "提供电脑、电子产品、软件及科技新闻评测的权威媒体网站。"
+      },
+      {
+        "name": "Digital Trends",
+        "url": "https://www.digitaltrends.com/",
+        "description": "报道消费电子产品、科技新闻与创新趋势，提供详尽评测和购买指南。"
       }
     ]
   },
@@ -35,22 +60,52 @@
       {
         "name": "Smashing Magazine",
         "url": "https://www.smashingmagazine.com/",
-        "description": "前端开发、设计与用户体验专业博客。"
+        "description": "专注于前端开发、设计与用户体验的专业博客，提供实用教程和行业趋势分析。"
       },
       {
         "name": "CSS-Tricks",
         "url": "https://css-tricks.com/",
-        "description": "CSS与前端开发技巧分享网站。"
+        "description": "前端开发和 CSS 技巧分享网站，涵盖布局、动画、响应式设计及实用示例。"
       },
       {
         "name": "Medium Technology",
         "url": "https://medium.com/topic/technology",
-        "description": "科技主题的文章与创作平台，覆盖产品、开发与趋势。"
+        "description": "科技主题创作平台，覆盖软件开发、产品设计、行业趋势与技术评论。"
       },
       {
         "name": "DEV Community",
         "url": "https://dev.to/",
-        "description": "开发者社区，分享技术文章、项目和经验。"
+        "description": "开发者社区，分享技术文章、开源项目和开发经验，涵盖前后端、云计算、数据科学等领域。"
+      },
+      {
+        "name": "Hashnode",
+        "url": "https://hashnode.com/",
+        "description": "面向开发者的博客平台，提供个人技术博客托管与社区互动，聚焦前端、后端、DevOps 等主题。"
+      },
+      {
+        "name": "InfoQ",
+        "url": "https://www.infoq.com/",
+        "description": "面向软件开发者的技术社区，涵盖架构设计、编程语言、人工智能、敏捷与 DevOps。"
+      },
+      {
+        "name": "Hacker Noon",
+        "url": "https://hackernoon.com/",
+        "description": "开发者和科技爱好者的博客平台，分享前沿技术、区块链、AI、编程经验与案例。"
+      },
+      {
+        "name": "GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/",
+        "description": "提供算法、数据结构、编程教程及面试题库，覆盖多种编程语言和开发实践。"
+      },
+      {
+        "name": "Ray Wenderlich",
+        "url": "https://www.raywenderlich.com/",
+        "description": "专注移动开发和游戏开发教程的网站，涵盖 iOS、Android、Unity 等平台技术。"
+      },
+      {
+        "name": "Tuts+ Code",
+        "url": "https://code.tutsplus.com/",
+        "description": "提供前后端、Web 开发、编程技巧和项目实战教程，适合初学者和进阶开发者。"
       }
     ]
   },
@@ -60,47 +115,107 @@
       {
         "name": "知乎",
         "url": "https://www.zhihu.com/",
-        "description": "问答社区，涵盖科技、商业、文化等领域的资讯和讨论。"
+        "description": "中文问答社区，用户分享专业知识、观点和新闻评论，涵盖科技、商业、文化等领域。"
       },
       {
         "name": "36Kr",
         "url": "https://36kr.com/",
-        "description": "国内科技创业、投资和商业新闻平台。"
+        "description": "专注于科技创业、投资和商业趋势的国内资讯平台，提供深度报道与市场分析。"
       },
       {
         "name": "虎嗅",
         "url": "https://www.huxiu.com/",
-        "description": "关注商业、科技与互联网趋势的资讯媒体。"
+        "description": "关注互联网、科技和商业趋势，提供独家报道、深度分析和行业洞察。"
       },
       {
         "name": "网易科技",
         "url": "https://tech.163.com/",
-        "description": "国内知名科技新闻报道网站。"
+        "description": "国内知名科技新闻门户，涵盖互联网、数码产品、人工智能等资讯。"
+      },
+      {
+        "name": "新浪科技",
+        "url": "https://tech.sina.com.cn/",
+        "description": "新浪旗下科技资讯频道，报道科技新闻、互联网动态与创新创业信息。"
+      },
+      {
+        "name": "搜狐科技",
+        "url": "https://it.sohu.com/",
+        "description": "提供互联网、移动科技、数码产品及IT行业动态的新闻与分析。"
+      },
+      {
+        "name": "钛媒体",
+        "url": "https://www.tmtpost.com/",
+        "description": "专注科技、商业和创新领域的深度报道媒体，提供专业新闻与市场洞察。"
+      },
+      {
+        "name": "财新网",
+        "url": "https://www.caixin.com/",
+        "description": "国内权威财经新闻平台，提供商业、金融和经济领域的深度报道与分析。"
+      },
+      {
+        "name": "界面新闻",
+        "url": "https://www.jiemian.com/",
+        "description": "关注商业、科技、金融和社会新闻，提供快速资讯和深度报道。"
+      },
+      {
+        "name": "虎扑科技",
+        "url": "https://tech.hupu.com/",
+        "description": "结合科技与体育领域的资讯平台，提供互联网与创新科技相关内容。"
       }
     ]
   },
   {
-    "subcategory": "财经与投资资讯",
+    "subcategory": "国际新闻资讯",
     "sites": [
+      {
+        "name": "Reuters 路透社",
+        "url": "https://www.reuters.com/",
+        "description": "全球知名新闻机构，提供实时国际新闻、财经报道、政治分析与市场数据，内容覆盖全球主要地区。"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news",
+        "description": "英国广播公司新闻网站，提供全球新闻、深度报道和多媒体内容，以客观公正著称。"
+      },
+      {
+        "name": "CNN",
+        "url": "https://edition.cnn.com/",
+        "description": "美国有线电视新闻网，报道国际与国内新闻，覆盖政治、经济、科技、娱乐等多个领域。"
+      },
+      {
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com/",
+        "description": "美国权威报纸网站，提供全球新闻、评论分析、调查报道和多媒体内容。"
+      },
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/",
+        "description": "总部位于卡塔尔的国际新闻媒体，报道全球新闻和中东地区热点，以深度分析著称。"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/international",
+        "description": "英国著名新闻媒体网站，提供国际新闻、评论、专题报道和数据新闻。"
+      },
       {
         "name": "Bloomberg",
         "url": "https://www.bloomberg.com/",
-        "description": "全球权威财经资讯与数据服务平台。"
+        "description": "全球财经新闻权威，涵盖金融、经济、市场动态和商业资讯。"
       },
       {
         "name": "Financial Times",
         "url": "https://www.ft.com/",
-        "description": "英国权威金融、经济和商业新闻媒体。"
+        "description": "英国财经媒体，专注全球经济、商业、金融市场及投资新闻分析。"
       },
       {
-        "name": "华尔街见闻",
-        "url": "https://wallstreetcn.com/",
-        "description": "国内专业财经新闻与金融市场分析平台。"
+        "name": "Associated Press (AP)",
+        "url": "https://apnews.com/",
+        "description": "美国美联社网站，提供快速、可靠的国际新闻和图片新闻。"
       },
       {
-        "name": "和讯网",
-        "url": "http://www.hexun.com/",
-        "description": "提供股市、财经、投资等资讯服务的网站。"
+        "name": "Deutsche Welle (DW)",
+        "url": "https://www.dw.com/en/top-stories/s-9097",
+        "description": "德国国际新闻媒体，提供全球新闻、德国本土资讯及多语种内容。"
       }
     ]
   }
