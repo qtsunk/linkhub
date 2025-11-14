@@ -58,16 +58,6 @@
         "description": "文档生成和工作流辅助的AI工具。"
       },
       {
-        "name": "Copy.ai",
-        "url": "https://www.copy.ai/",
-        "description": "内容创作与文案生成工具，支持多种场景。"
-      },
-      {
-        "name": "Jasper AI",
-        "url": "https://www.jasper.ai/",
-        "description": "AI内容创作和办公辅助平台。"
-      },
-      {
         "name": "Gamma",
         "url": "https://gamma.app/",
         "description": "AI生成PPT工具，快速制作演示文稿。"
@@ -81,6 +71,16 @@
         "name": "Writesonic",
         "url": "https://writesonic.com/",
         "description": "AI文案和文章生成平台，支持多语言。"
+      },
+      {
+        "name": "Taskade AI",
+        "url": "https://www.taskade.com/ai",
+        "description": "集成 AI 大纲、写作与任务编排的协作工作台，支持多人实时编辑。"
+      },
+      {
+        "name": "QuillBot",
+        "url": "https://quillbot.com/",
+        "description": "广受欢迎的 AI 改写与润色工具，支持多语言与引文检测。"
       }
     ]
   },
@@ -141,6 +141,11 @@
         "name": "LALAL.AI",
         "url": "https://www.lalal.ai/",
         "description": "AI音频分离与声音生成工具。"
+      },
+      {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/",
+        "description": "高保真 AI 语音合成平台，提供多语种声音克隆与情感控制。"
       }
     ]
   },
@@ -166,6 +171,11 @@
         "name": "Sora",
         "url": "https://sora.chatgpt.com/",
         "description": "将文字和图片转化为沉浸式视频，支持故事动画化。"
+      },
+      {
+        "name": "HeyGen",
+        "url": "https://www.heygen.com/",
+        "description": "AI 数字人视频生成平台，支持多语言配音与角色演绎，适合营销与培训。"
       }
     ]
   }

@@ -46,26 +46,51 @@
         "name": "ILovePDF",
         "url": "https://www.ilovepdf.com/zh-cn",
         "description": "PDF处理工具，支持合并、拆分、压缩、转换。"
+      },
+      {
+        "name": "Remove.bg",
+        "url": "https://www.remove.bg/",
+        "description": "自动抠图与背景移除工具，上传图片即可在线获得透明背景，适合电商与设计快速处理。"
+      },
+      {
+        "name": "Diffchecker",
+        "url": "https://www.diffchecker.com/",
+        "description": "在线对比文本、图片、PDF、Excel 差异的工具，支持版本留存与团队共享。"
+      },
+      {
+        "name": "Miro",
+        "url": "https://miro.com/",
+        "description": "全球流行的在线白板协作平台，提供流程图、头脑风暴与工作坊模板，支持多人实时编辑。"
       }
     ]
   },
   {
-    "subcategory": "UI设计与原型",
+    "subcategory": "自动化与协作",
     "sites": [
       {
-        "name": "Figma",
-        "url": "https://www.figma.com/",
-        "description": "在线UI/UX设计与原型工具，支持多人协作。"
+        "name": "Zapier",
+        "url": "https://zapier.com/",
+        "description": "连接 6000+ SaaS 的自动化平台，可将重复办公流程编排成工作流。"
       },
       {
-        "name": "Sketch",
-        "url": "https://www.sketch.com/",
-        "description": "Mac 平台 UI/UX 设计工具，专注矢量设计。"
+        "name": "Make",
+        "url": "https://www.make.com/",
+        "description": "原 Integromat，提供可视化节点式自动化，适合复杂跨应用集成。"
       },
       {
-        "name": "Adobe XD",
-        "url": "https://www.adobe.com/cn/products/xd.html",
-        "description": "Adobe 官方界面设计和原型工具，支持协作与交互设计。"
+        "name": "n8n",
+        "url": "https://n8n.io/",
+        "description": "开源可自托管的自动化工具，支持编排 API、Webhook 与数据库任务。"
+      },
+      {
+        "name": "IFTTT",
+        "url": "https://ifttt.com/",
+        "description": "通过触发器连接 800+ 服务的自动化平台，可轻松串联邮件、IoT 与移动应用。"
+      },
+      {
+        "name": "Workato",
+        "url": "https://www.workato.com/",
+        "description": "企业级集成与自动化平台，内置大量 SaaS 连接器，支持跨部门工作流与数据同步。"
       }
     ]
   },
@@ -96,6 +121,16 @@
         "name": "百度统计",
         "url": "https://tongji.baidu.com/",
         "description": "国内常用网站流量分析工具，支持多维度报表。"
+      },
+      {
+        "name": "Looker Studio",
+        "url": "https://lookerstudio.google.com/",
+        "description": "Google 官方的数据可视化与 BI 工具，支持拖拽报表与实时仪表盘分享。"
+      },
+      {
+        "name": "Metabase",
+        "url": "https://www.metabase.com/",
+        "description": "开源数据分析平台，可自建 SQL 仪表盘与自动化邮件汇报，配置简单。"
       }
     ]
   },
@@ -126,6 +161,16 @@
         "name": "NotebookLM",
         "url": "https://notebooklm.google.com/",
         "description": "Google 推出的 AI 笔记助手，可基于用户上传的资料生成摘要、问答与关联笔记，帮助整理和理解信息内容。"
+      },
+      {
+        "name": "ClickUp",
+        "url": "https://clickup.com/",
+        "description": "集任务、文档、白板与目标管理于一体的生产力套件，适合跨职能团队协作。"
+      },
+      {
+        "name": "Anytype",
+        "url": "https://anytype.io/",
+        "description": "注重隐私的本地优先知识管理工具，支持多类型数据库与图谱视图。"
       }
     ]
   },
@@ -146,6 +191,16 @@
         "name": "Pomofocus",
         "url": "https://pomofocus.io/",
         "description": "在线番茄工作法计时工具，提升工作效率。"
+      },
+      {
+        "name": "Forest",
+        "url": "https://www.forestapp.cc/",
+        "description": "经典番茄钟应用，通过种树激励保持专注，支持与好友共同挑战。"
+      },
+      {
+        "name": "Motion",
+        "url": "https://www.usemotion.com/",
+        "description": "AI 驱动的自动排程工具，结合日历与任务优先级自动生成最优日程。"
       }
     ]
   },
@@ -166,6 +221,16 @@
         "name": "Coggle",
         "url": "https://coggle.it/",
         "description": "在线思维导图工具，支持团队协作。"
+      },
+      {
+        "name": "Nuclino",
+        "url": "https://www.nuclino.com/",
+        "description": "轻量级团队知识库，支持实时协作、内嵌图表与关系图，适合写作 SOP 与产品说明。"
+      },
+      {
+        "name": "Slab",
+        "url": "https://slab.com/",
+        "description": "现代化 Wiki 平台，提供全文搜索、版本历史与权限控制，适合沉淀团队知识。"
       }
     ]
   }

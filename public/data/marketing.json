@@ -1,62 +1,62 @@
 [
-    {
-      "subcategory": "社交媒体营销",
-      "sites": [
-        {
-          "name": "Hootsuite",
-          "url": "https://hootsuite.com/",
-          "description": "一站式社交媒体管理工具，支持多平台内容调度与数据分析。"
-        },
-        {
-          "name": "新榜",
-          "url": "https://newrank.cn/",
-          "description": "国内新媒体数据分析平台，提供公众号、短视频账号榜单与监测。"
-        },
-        {
-          "name": "Buffer",
-          "url": "https://buffer.com/",
-          "description": "简洁的社交媒体内容发布与分析工具，适合中小团队使用。"
-        }
-      ]
-    },
-    {
-      "subcategory": "邮件营销",
-      "sites": [
-        {
-          "name": "Mailchimp",
-          "url": "https://mailchimp.com/",
-          "description": "全球知名邮件营销平台，支持邮件模板、自动化与效果追踪。"
-        },
-        {
-          "name": "Private Email",
-          "url": "https://privateemail.com/",
-          "description": "安全、私密的电子邮件服务，提供加密邮件、日历和联系人管理功能。"
-        },
-        {
-          "name": "SendGrid",
-          "url": "https://sendgrid.com/",
-          "description": "Twilio旗下邮件发送平台，侧重高 deliverability 与API集成。"
-        }
-      ]
-    },
-    {
-      "subcategory": "SEO工具",
-      "sites": [
-        {
-          "name": "Ahrefs",
-          "url": "https://ahrefs.com/",
-          "description": "全面的SEO分析工具，提供关键词研究、外链监测与竞争对手分析。"
-        },
-        {
-          "name": "百度统计",
-          "url": "https://tongji.baidu.com/",
-          "description": "百度推出的网站数据分析工具，支持流量监控、用户行为分析。"
-        },
-        {
-          "name": "SEMrush",
-          "url": "https://www.semrush.com/",
-          "description": "一体化营销平台，涵盖SEO、PPC、内容营销等多维度分析。"
-        }
-      ]
-    }
-  ]
+  {
+    "subcategory": "社交媒体营销",
+    "sites": [
+      {
+        "name": "Hootsuite",
+        "url": "https://hootsuite.com/",
+        "description": "一站式社交媒体管理工具，支持多平台内容调度与数据分析。"
+      },
+      {
+        "name": "新榜",
+        "url": "https://newrank.cn/",
+        "description": "国内新媒体数据分析平台，提供公众号、短视频账号榜单与监测。"
+      },
+      {
+        "name": "Buffer",
+        "url": "https://buffer.com/",
+        "description": "简洁的社交媒体内容发布与分析工具，适合中小团队使用。"
+      }
+    ]
+  },
+  {
+    "subcategory": "邮件营销",
+    "sites": [
+      {
+        "name": "Mailchimp",
+        "url": "https://mailchimp.com/",
+        "description": "全球知名邮件营销平台，支持邮件模板、自动化与效果追踪。"
+      },
+      {
+        "name": "SendGrid",
+        "url": "https://sendgrid.com/",
+        "description": "Twilio旗下邮件发送平台，侧重高 deliverability 与API集成。"
+      },
+      {
+        "name": "Brevo (Sendinblue)",
+        "url": "https://www.brevo.com/",
+        "description": "集成邮件、短信与营销自动化的 SaaS 平台，支持行为触发与 CRM。"
+      }
+    ]
+  },
+  {
+    "subcategory": "SEO工具",
+    "sites": [
+      {
+        "name": "Ahrefs",
+        "url": "https://ahrefs.com/",
+        "description": "全面的SEO分析工具，提供关键词研究、外链监测与竞争对手分析。"
+      },
+      {
+        "name": "SEMrush",
+        "url": "https://www.semrush.com/",
+        "description": "一体化营销平台，涵盖SEO、PPC、内容营销等多维度分析。"
+      },
+      {
+        "name": "Google Search Console",
+        "url": "https://search.google.com/search-console/about",
+        "description": "谷歌官方站长工具，提供索引状态、关键词表现与结构化数据诊断。"
+      }
+    ]
+  }
+]

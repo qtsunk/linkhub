@@ -63,11 +63,6 @@
         "description": "生活方式分享社区，用户可以发布图文、短视频内容。"
       },
       {
-        "name": "Medium",
-        "url": "https://medium.com/",
-        "description": "全球创作者平台，提供技术、设计、创业、生活类文章分享。"
-      },
-      {
         "name": "Notion Community",
         "url": "https://www.notion.so/community",
         "description": "Notion 用户分享模板、经验和工作流的社区。"
@@ -76,6 +71,11 @@
         "name": "Dev.to (Design & UX)",
         "url": "https://dev.to/t/design",
         "description": "面向设计和 UX 创作者的讨论和文章分享社区。"
+      },
+      {
+        "name": "ArtStation",
+        "url": "https://www.artstation.com/",
+        "description": "面向数字艺术与游戏概念设计师的作品展示与招聘社区。"
       }
     ]
   },

@@ -23,9 +23,9 @@
         "description": "老牌矢量图形和排版设计软件。"
       },
       {
-        "name": "Sketch",
-        "url": "https://www.sketch.com/",
-        "description": "Mac 平台 UI 和图形设计工具。"
+        "name": "Affinity Photo",
+        "url": "https://affinity.serif.com/photo/",
+        "description": "专业级位图与修图软件，性能高、买断制，适合 UI/视觉快速出稿。"
       }
     ]
   },
@@ -61,6 +61,36 @@
         "name": "LottieFiles",
         "url": "https://lottiefiles.com/",
         "description": "轻量级动画文件与动效素材库，支持Web和App。"
+      }
+    ]
+  },
+  {
+    "subcategory": "产品原型与协作",
+    "sites": [
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com/",
+        "description": "领先的在线协同设计平台，支持实时编辑与设计系统。"
+      },
+      {
+        "name": "Sketch",
+        "url": "https://www.sketch.com/",
+        "description": "Mac 平台专注 UI 设计与原型的工具，生态丰富。"
+      },
+      {
+        "name": "Adobe XD",
+        "url": "https://www.adobe.com/cn/products/xd.html",
+        "description": "Adobe 官方的原型与交互设计工具，整合 Creative Cloud 资源。"
+      },
+      {
+        "name": "Penpot",
+        "url": "https://penpot.app/",
+        "description": "开源跨平台设计协作工具，支持团队自建与 SVG 流程。"
+      },
+      {
+        "name": "Axure RP",
+        "url": "https://www.axure.com/",
+        "description": "高保真原型与交互逻辑设计工具，适合复杂业务流程。"
       }
     ]
   },

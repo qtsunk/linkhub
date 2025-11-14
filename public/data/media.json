@@ -73,11 +73,6 @@
         "description": "科技主题创作平台，覆盖软件开发、产品设计、行业趋势与技术评论。"
       },
       {
-        "name": "DEV Community",
-        "url": "https://dev.to/",
-        "description": "开发者社区，分享技术文章、开源项目和开发经验，涵盖前后端、云计算、数据科学等领域。"
-      },
-      {
         "name": "Hashnode",
         "url": "https://hashnode.com/",
         "description": "面向开发者的博客平台，提供个人技术博客托管与社区互动，聚焦前端、后端、DevOps 等主题。"
@@ -106,17 +101,17 @@
         "name": "Tuts+ Code",
         "url": "https://code.tutsplus.com/",
         "description": "提供前后端、Web 开发、编程技巧和项目实战教程，适合初学者和进阶开发者。"
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "url": "https://stackoverflow.blog/",
+        "description": "Stack Overflow 官方博客，分享工程效率、开发者调查与技术洞察。"
       }
     ]
   },
   {
     "subcategory": "国内新闻资讯",
     "sites": [
-      {
-        "name": "知乎",
-        "url": "https://www.zhihu.com/",
-        "description": "中文问答社区，用户分享专业知识、观点和新闻评论，涵盖科技、商业、文化等领域。"
-      },
       {
         "name": "36Kr",
         "url": "https://36kr.com/",
@@ -161,6 +156,11 @@
         "name": "虎扑科技",
         "url": "https://tech.hupu.com/",
         "description": "结合科技与体育领域的资讯平台，提供互联网与创新科技相关内容。"
+      },
+      {
+        "name": "澎湃新闻",
+        "url": "https://www.thepaper.cn/",
+        "description": "国内主流深度新闻平台，关注时政、科技与社会议题。"
       }
     ]
   },
@@ -198,16 +198,6 @@
         "description": "英国著名新闻媒体网站，提供国际新闻、评论、专题报道和数据新闻。"
       },
       {
-        "name": "Bloomberg",
-        "url": "https://www.bloomberg.com/",
-        "description": "全球财经新闻权威，涵盖金融、经济、市场动态和商业资讯。"
-      },
-      {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/",
-        "description": "英国财经媒体，专注全球经济、商业、金融市场及投资新闻分析。"
-      },
-      {
         "name": "Associated Press (AP)",
         "url": "https://apnews.com/",
         "description": "美国美联社网站，提供快速、可靠的国际新闻和图片新闻。"
@@ -216,6 +206,16 @@
         "name": "Deutsche Welle (DW)",
         "url": "https://www.dw.com/en/top-stories/s-9097",
         "description": "德国国际新闻媒体，提供全球新闻、德国本土资讯及多语种内容。"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/",
+        "description": "美国新锐媒体，以精炼的 Smart Brevity 形式报道全球政治与商业。"
+      },
+      {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/",
+        "description": "日本经济新闻旗下英文站，聚焦亚洲商业、科技与政策。"
       }
     ]
   }

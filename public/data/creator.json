@@ -98,9 +98,19 @@
         "description": "可视化视频编辑工具，支持模板与创作。"
       },
       {
-        "name": "Runway",
-        "url": "https://runwayml.com/",
-        "description": "AI视频生成与特效处理平台，适合创作者快速制作内容。"
+        "name": "CapCut 创作平台",
+        "url": "https://www.capcut.com/",
+        "description": "提供多端剪辑、模板与在线素材库，适合短视频快速制作。"
+      },
+      {
+        "name": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "description": "专业级调色与非线性剪辑软件，免费版即可满足大多数内容创作。"
+      },
+      {
+        "name": "Descript",
+        "url": "https://www.descript.com/",
+        "description": "通过文字脚本驱动音视频编辑，支持自动转录、配音与协作。"
       }
     ]
   },
@@ -121,6 +131,16 @@
         "name": "Jasper",
         "url": "https://www.jasper.ai/",
         "description": "AI写作助手，支持多种语言内容生成。"
+      },
+      {
+        "name": "Anyword",
+        "url": "https://anyword.com/",
+        "description": "面向营销与电商的 AI 文案平台，内置转化率预测与多渠道模板。"
+      },
+      {
+        "name": "Writer.com",
+        "url": "https://writer.com/",
+        "description": "企业级 AI 写作助手，支持知识库、风格指南和团队协作。"
       }
     ]
   },

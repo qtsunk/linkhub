@@ -1,7 +1,7 @@
 [
   {
     "id": "dev-tools",
-    "category": "开发者服务",
+    "category": "开发者服务与工具",
     "icon": "fas fa-code",
     "file": "dev-tools.json"
   },
