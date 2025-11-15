@@ -8,6 +8,22 @@
   import ScrollToTop from './lib/ScrollToTop.svelte'
   import { favoritesStore } from './lib/utils.js'
 
+  // 侧边栏状态键名
+  const SIDEBAR_STATE_KEY = 'linkhub-sidebar-open'
+
+  // 初始化侧边栏状态（移动端默认关闭）
+  function getInitialSidebarState() {
+    if (typeof window === 'undefined') return true
+    const stored = localStorage.getItem(SIDEBAR_STATE_KEY)
+    if (stored !== null) {
+      return stored === 'true'
+    }
+    const isMobile = window.matchMedia('(max-width: 1023px)').matches
+    const initial = !isMobile
+    localStorage.setItem(SIDEBAR_STATE_KEY, initial ? 'true' : 'false')
+    return initial
+  }
+
   // 状态管理
   let categories = []
   let currentCategory = null
@@ -15,7 +31,7 @@
   let categoryData = []
   let allCategoriesData = [] // 所有分类数据，用于全局搜索
   let searchQuery = ''
-  let sidebarOpen = true // Web 端默认显示菜单栏，移动端通过按钮控制
+  let sidebarOpen = getInitialSidebarState()
   let showFavorites = true // 默认显示收藏页面（首页）
   let loading = false
 
@@ -89,6 +105,12 @@
   // 切换侧边栏
   function handleSidebarToggle() {
     sidebarOpen = !sidebarOpen
+    persistSidebarState(sidebarOpen)
+  }
+
+  function persistSidebarState(state) {
+    if (typeof window === 'undefined') return
+    localStorage.setItem(SIDEBAR_STATE_KEY, state ? 'true' : 'false')
   }
 
   // 搜索处理
@@ -181,4 +203,3 @@
     padding: 0;
   }
 </style>
-

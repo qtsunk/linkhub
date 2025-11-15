@@ -17,13 +17,9 @@
       return
     }
 
-    // 判断滚动方向：向上滚动（scrollTop 减小）时显示按钮
+    // 判断滚动方向：向上滚动（scrollTop 减小）时显示按钮，否则隐藏
     const isScrollingUp = scrollTop < lastScrollTop
-
-    // 只要向上滚动就显示按钮，不限制滚动幅度
-    if (isScrollingUp) {
-      showButton = true
-    }
+    showButton = isScrollingUp
 
     // 更新上次滚动位置
     lastScrollTop = scrollTop

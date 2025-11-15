@@ -9,6 +9,7 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "types": ["vite/client"],
+    "allowArbitraryExtensions": true,
     "skipLibCheck": true,
     "checkJs": true
   },

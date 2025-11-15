@@ -4,6 +4,11 @@
 
   export let site = {}
   export let onToggleFavorite = () => {}
+  // 收藏页定制：控制收藏按钮是否仅在悬停时可见
+  export let hideFavoriteButtonUntilHover = false
+  // 排序模式下可禁用点击和收藏按钮
+  export let disableOpen = false
+  export let showFavoriteButton = true
 
   // 本地收藏状态，用于立即更新 UI
   let localFavoriteState = favoritesStore.isFavorite(site.url)
@@ -133,12 +138,23 @@
   }
 </script>
 
+<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <div
-  class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 p-4 cursor-pointer border border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500"
-  on:click={openLink}
-  role="button"
-  tabindex="0"
-  on:keydown={(e) => e.key === 'Enter' && openLink()}
+  class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 p-4 {disableOpen ? 'cursor-default' : 'cursor-pointer'} border border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-500 {hideFavoriteButtonUntilHover
+    ? 'favorite-hover-card'
+    : ''}"
+  on:click={() => {
+    if (!disableOpen) {
+      openLink()
+    }
+  }}
+  role={disableOpen ? undefined : 'button'}
+  tabindex={disableOpen ? undefined : 0}
+  on:keydown={(e) => {
+    if (!disableOpen && e.key === 'Enter') {
+      openLink()
+    }
+  }}
 >
   <div class="flex items-start gap-3">
     <!-- Favicon -->
@@ -195,19 +211,50 @@
       </div>
     </div>
 
-    <!-- 收藏按钮 -->
-    <button
-      on:click={toggleFavorite}
-      class="flex-shrink-0 p-1 transition-colors"
-      aria-label={isFavorite ? '取消收藏' : '收藏'}
-      title={isFavorite ? '取消收藏' : '收藏'}
-    >
-      <i
-        class="fas fa-star {isFavorite
-          ? 'text-yellow-400 dark:text-yellow-500'
-          : 'text-gray-300 dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-500'}"
-      ></i>
-    </button>
+    {#if showFavoriteButton}
+      <button
+        on:click={toggleFavorite}
+        class="flex-shrink-0 p-1 transition-colors favorite-star-button {hideFavoriteButtonUntilHover
+          ? 'opacity-0 pointer-events-none'
+          : ''}"
+        aria-label={isFavorite ? '取消收藏' : '收藏'}
+        title={isFavorite ? '取消收藏' : '收藏'}
+      >
+        <i
+          class="fas fa-star {isFavorite
+            ? 'text-yellow-400 dark:text-yellow-500'
+            : 'text-gray-300 dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-500'}"
+        ></i>
+      </button>
+    {/if}
   </div>
 </div>
+
+<style>
+  /* 收藏页专用：仅对支持 hover 的设备隐藏收藏按钮，移动端默认展示 */
+  :global(.favorite-hover-card .favorite-star-button) {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    :global(.favorite-hover-card .favorite-star-button) {
+      transform: translateY(-2px);
+    }
+
+    :global(.favorite-hover-card:hover .favorite-star-button),
+    :global(.favorite-hover-card:focus-within .favorite-star-button) {
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      transform: translateY(0);
+    }
+  }
+
+  @media (hover: none), (pointer: coarse) {
+    :global(.favorite-hover-card .favorite-star-button) {
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      transform: none;
+    }
+  }
+</style>
 
