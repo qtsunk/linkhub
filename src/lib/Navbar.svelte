@@ -1,35 +1,38 @@
 <script>
-  import ThemeToggle from './ThemeToggle.svelte'
-  import Search from './Search.svelte'
+  import ThemeToggle from "./ThemeToggle.svelte";
+  import Search from "./Search.svelte";
 
-  export let onMenuToggle = () => {}
-  export let searchQuery = ''
-  export let onSearch = (/** @type {string} */ value) => {}
-  export let allCategoriesData = [] // 所有分类数据，用于搜索
-  export let onSearchResultClick = () => {} // 搜索结果点击回调
+  export let onMenuToggle = () => {};
+  export let searchQuery = "";
+  export let onSearch = (/** @type {string} */ value) => {};
+  export let allCategoriesData = []; // 所有分类数据，用于搜索
+  export let onSearchResultClick = () => {}; // 搜索结果点击回调
 
   // 防抖搜索处理
-  let searchValue = searchQuery
-  let searchTimeout = null
-  let searchComponent // Search 组件的引用
+  let searchValue = searchQuery;
+  let searchTimeout = null;
+  let searchComponent; // Search 组件的引用
 
   // 防抖搜索函数，延迟 200ms 执行搜索
   function handleSearch(e) {
-    searchValue = e.detail
+    searchValue = e.detail;
     // 清除之前的定时器
     if (searchTimeout) {
-      clearTimeout(searchTimeout)
+      clearTimeout(searchTimeout);
     }
     // 设置新的定时器
     searchTimeout = setTimeout(() => {
-      onSearch(searchValue)
-    }, 200)
+      onSearch(searchValue);
+    }, 200);
   }
 
   // 触发展开移动端搜索框
   function handleMobileSearchClick() {
-    if (searchComponent && typeof searchComponent.expandMobileSearch === 'function') {
-      searchComponent.expandMobileSearch()
+    if (
+      searchComponent &&
+      typeof searchComponent.expandMobileSearch === "function"
+    ) {
+      searchComponent.expandMobileSearch();
     }
   }
 </script>
@@ -38,7 +41,7 @@
   <!-- 移动端菜单按钮 -->
   <button
     on:click={onMenuToggle}
-    class="h-10 w-10 flex items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors lg:hidden"
+    class="h-10 w-10 flex items-center justify-center rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 lg:hidden"
     aria-label="切换菜单"
   >
     <i class="fas fa-bars text-gray-700 dark:text-gray-300"></i>
@@ -47,7 +50,7 @@
   <!-- Web 端菜单栏隐藏按钮 - 位于搜索框左侧，图标与移动端保持一致 -->
   <button
     on:click={onMenuToggle}
-    class="hidden lg:flex h-10 w-10 items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+    class="hidden lg:flex h-10 w-10 items-center justify-center rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
     aria-label="切换菜单"
     title="切换菜单"
   >
@@ -71,7 +74,7 @@
     <!-- 移动端搜索图标 -->
     <button
       on:click={handleMobileSearchClick}
-      class="lg:hidden h-10 w-10 flex items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+      class="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
       aria-label="搜索"
       title="搜索"
     >
@@ -81,7 +84,7 @@
       href="https://github.com/qtsunk/linkhub"
       target="_blank"
       rel="noopener noreferrer"
-      class="h-10 w-10 flex items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+      class="h-10 w-10 flex items-center justify-center rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
       aria-label="GitHub"
       title="GitHub"
     >
@@ -90,4 +93,3 @@
     <ThemeToggle />
   </div>
 </nav>
-

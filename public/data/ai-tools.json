@@ -33,14 +33,9 @@
         "description": "由Quora开发，可切换使用多种主流AI模型的对话应用。"
       },
       {
-        "name": "讯飞星火",
-        "url": "https://spark.xfyun.cn/",
-        "description": "国内优质AI助手，支持聊天与内容创作。"
-      },
-      {
-        "name": "文心一言",
-        "url": "https://yiyan.baidu.com/",
-        "description": "国内AI聊天助手，结合搜索与创作能力。"
+        "name": "LMArena",
+        "url": "https://lmarena.ai/",
+        "description": "AI 模型对战与排行榜平台，用于对比多模型回答表现。"
       },
       {
         "name": "Grok",

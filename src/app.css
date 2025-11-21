@@ -9,10 +9,16 @@
   box-sizing: border-box;
 }
 
+/* 优化字体渲染和滚动行为 */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* 全局平滑滚动效果 */
+html {
+  scroll-behavior: smooth;
 }
 
 /* 滚动条样式 */
@@ -25,28 +31,32 @@ body {
   background: transparent;
 }
 
+/* 使用更柔和的滚动条颜色 */
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: background 0.2s ease;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
 }
 
-/* 菜单栏滚动条样式 - 默认隐藏，悬停时显示，上下圆角，无箭头 */
+/* 菜单栏滚动条样式 - 线条状、悬停显示、移开隐藏 */
 .sidebar-nav {
   /* Firefox 滚动条样式 */
-  scrollbar-width: thin; /* 细滚动条 */
-  scrollbar-color: transparent transparent; /* 默认透明 */
+  scrollbar-width: thin;
+  /* 细滚动条 */
+  scrollbar-color: transparent transparent;
+  /* 默认透明 */
 }
 
 /* Firefox 悬停时显示滚动条 */
@@ -60,52 +70,53 @@ body {
 
 /* Webkit 浏览器（Chrome、Safari、Edge）滚动条样式 */
 .sidebar-nav::-webkit-scrollbar {
-  width: 8px; /* 滚动条宽度 */
+  width: 4px;
+  /* 滚动条宽度 - 更细的线条 */
 }
 
 .sidebar-nav::-webkit-scrollbar-track {
-  background: transparent; /* 滚动条轨道透明 */
+  background: transparent;
+  /* 无背景 */
 }
 
-/* 隐藏滚动条上下箭头按钮 - 兼容所有 Webkit 浏览器 */
+/* 隐藏滚动条上下箭头按钮 */
 .sidebar-nav::-webkit-scrollbar-button {
-  display: none; /* 隐藏箭头按钮 */
-  width: 0;
-  height: 0;
-  background: transparent;
-}
-
-/* 隐藏滚动条角落 */
-.sidebar-nav::-webkit-scrollbar-corner {
   display: none;
-  background: transparent;
 }
 
-/* 滚动条滑块样式 - 默认透明，悬停时显示 */
+/* 滚动条滑块样式 - 默认透明（隐藏） */
 .sidebar-nav::-webkit-scrollbar-thumb {
-  background: transparent; /* 默认透明 */
-  border-radius: 10px; /* 上下圆角效果，值越大圆角越明显 */
+  background: transparent;
+  border-radius: 10px;
   transition: background 0.2s ease;
 }
 
-/* 悬停菜单栏时显示滚动条滑块 */
+/* 悬停菜单栏时显示滚动条 - 线条状 */
 .sidebar-nav:hover::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2); /* 明亮主题滚动条颜色 */
-  border-radius: 10px; /* 上下圆角效果 */
+  background: rgba(0, 0, 0, 0.2);
+  /* 明亮主题滚动条颜色 */
+  border-radius: 10px;
 }
 
-/* 悬停滚动条滑块时加深颜色 */
-.sidebar-nav:hover::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-/* 暗色主题滚动条样式 */
 .dark .sidebar-nav:hover::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2); /* 暗色主题滚动条颜色 */
-  border-radius: 10px; /* 上下圆角效果 */
+  background: rgba(255, 255, 255, 0.2);
+  /* 暗色主题滚动条颜色 */
+}
+
+/* 悬停滚动条滑块时颜色加深 */
+.sidebar-nav:hover::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .dark .sidebar-nav:hover::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.35);
 }
 
+/* 滚动条滑块激活状态 */
+.sidebar-nav:hover::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.dark .sidebar-nav:hover::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.45);
+}
