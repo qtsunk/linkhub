@@ -70,7 +70,12 @@ export const favoritesStore = {
       const reader = new FileReader()
       reader.onload = (e) => {
         try {
-          const data = JSON.parse(e.target.result)
+          const result = e.target.result
+          if (typeof result !== 'string') {
+            reject(new Error('文件读取失败：格式不正确'))
+            return
+          }
+          const data = JSON.parse(result)
           if (Array.isArray(data)) {
             localStorage.setItem('linkhub-favorites', JSON.stringify(data))
             resolve(data)

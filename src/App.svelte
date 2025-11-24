@@ -4,7 +4,7 @@
   import Navbar from "./lib/Navbar.svelte";
   import Category from "./lib/Category.svelte";
   import Favorites from "./lib/Favorites.svelte";
-  import LinkCard from "./lib/LinkCard.svelte";
+
   import ScrollToTop from "./lib/ScrollToTop.svelte";
   import { favoritesStore } from "./lib/utils.js";
 
@@ -26,6 +26,24 @@
     return initial;
   }
 
+  // 获取初始显示状态（修复刷新闪烁问题）
+  function getInitialShowFavorites() {
+    if (typeof window === "undefined") return true;
+    try {
+      const stored = localStorage.getItem(PAGE_STATE_KEY);
+      if (stored) {
+        const state = JSON.parse(stored);
+        // 如果有当前分类，则不显示收藏页
+        if (state.currentCategory) {
+          return false;
+        }
+      }
+    } catch (e) {
+      console.error("读取初始状态失败:", e);
+    }
+    return true;
+  }
+
   // 状态管理
   let categories = [];
   let currentCategory = null;
@@ -34,7 +52,7 @@
   let allCategoriesData = []; // 所有分类数据，用于全局搜索
   let searchQuery = "";
   let sidebarOpen = getInitialSidebarState();
-  let showFavorites = true; // 默认显示收藏页面（首页）
+  let showFavorites = getInitialShowFavorites(); // 默认根据缓存状态显示
   let loading = false;
 
   // 初始化：加载分类数据
@@ -50,6 +68,8 @@
       await restorePageState();
     } catch (error) {
       console.error("加载分类数据失败:", error);
+      // 如果加载失败，确保显示收藏页（避免停留在空白或加载状态）
+      showFavorites = true;
     }
   });
 
@@ -196,12 +216,8 @@
       }
     } catch (error) {
       console.error("恢复页面状态失败:", error);
+      showFavorites = true;
     }
-  }
-
-  // 当收藏发生变化时更新
-  function handleFavoriteUpdate() {
-    favorites = favoritesStore.getFavorites();
   }
 </script>
 
@@ -271,6 +287,13 @@
             showSubcategoryTitle={!currentSubcategory}
           />
         {/if}
+      {:else}
+        <!-- 初始化加载中 -->
+        <div class="flex justify-center items-center h-full min-h-[50vh]">
+          <i
+            class="fas fa-spinner fa-spin text-4xl text-gray-400 dark:text-gray-600"
+          ></i>
+        </div>
       {/if}
     </main>
 
